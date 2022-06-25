@@ -8,5 +8,6 @@
 }
 
 hr {
+    border: var(--main-color) solid 1px;
 	width: 100%;
 }

@@ -1,4 +1,3 @@
-import logo from '../images/logo.png';
 import './Navbar.css';
 
 function Navbar() {
@@ -9,10 +8,10 @@ function Navbar() {
                     <span className="p">Home</span>
                 </li>
                 <li className='nav-item'>
-                    <span className="p">About Us</span>
+                    <span className="p">News & Updates</span>
                 </li>
                 <li className='logo'>
-                    <img src={logo} alt='logo'/>
+                    <img src='./images/logo.png' alt='logo'/>
                 </li>
                 <li className='nav-item'>
                     <span className="p">Registration</span>

@@ -1,0 +1,12 @@
+.committe-container {
+    width: 30%;
+
+    display: flex;
+
+    flex-direction: column;
+}
+.committe-content {
+    display: flex;
+
+    flex-direction: column;
+}

@@ -19,10 +19,28 @@ header {
     align-items: center;
     justify-content: center;
 }
-.header-content span, .header-content hr {
-    color: #FFFFFF;
+.header-content span {
+    color: var(--secondary-color);
+}
+.header-content hr {
+    border: var(--secondary-color) solid 1px;
 }
 .header-description {
     text-align: justify;
     margin: 1rem 10rem 5rem 10rem;
+}
+
+.content {
+    margin: 3rem;
+}
+
+
+.committes-list {
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+}
+.committe-item {
+    width: 100%;
 }
