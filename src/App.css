@@ -1,0 +1,24 @@
+.header-container {
+    position: absolute;
+    
+    width: 100%;
+    height: 100%;
+}
+.header-content {
+    width: min-content;
+    height: 100%;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header-content span, .header-content hr {
+    color: #FFFFFF;
+}
+.header-description {
+    text-align: justify;
+    margin: 1rem 10rem 5rem 10rem;
+}

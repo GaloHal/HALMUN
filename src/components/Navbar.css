@@ -27,12 +27,19 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
 }
 .nav-item span {
     text-transform: uppercase;
     letter-spacing: 0.05rem;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.70);
+
+    transition: 100ms ease-in;
 }
+.nav-item:hover span {
+    color:rgba(255, 255, 255, 1);
+}
+
 
 .logo {
     margin: 0 auto;
