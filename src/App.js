@@ -1,15 +1,16 @@
-import Background from './components/Background';
 import Navbar from './components/Navbar';
 import Title from './components/Title';
 import Button from './components/Button';
-
+import Background from './components/Background';
 import './App.css';
 
 function App() {
 	return (
 		<body>
 			<header>
+				<Navbar/>
 				<Background/>
+				
 				<div className='header-container'>
 					
 					<div className='header-content'>
@@ -36,7 +37,9 @@ function App() {
 				</div>
 			</header>
 			<main>
-				<Navbar/>
+				<div> 
+					Hello world this is text
+				</div>
 			</main>
 		</body>
 	);
