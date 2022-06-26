@@ -34,8 +34,16 @@ function App() {
 					</div>
 				</div>
 			</header>
-			<main className='content'>
-				<div className='committe-content'>
+			<main>
+				<div className='news-updates-content content'>
+					<Title
+						className='h2'
+						text='News & Updates'
+					/>
+
+				</div>
+
+				<div className='committe-content content'>
 					<Title
 						className='h2'
 						text='Committes'
@@ -72,8 +80,12 @@ function App() {
 						</li>
 					</ul>
 				</div>
-				
 			</main>
+			<footer>
+				<div className='footer-content'>
+						
+				</div>
+			</footer>
 		</body>
 	);
 }

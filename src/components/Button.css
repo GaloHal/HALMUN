@@ -11,11 +11,11 @@
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: var(--main-color) !important;
+    color: var(--primary-color) !important;
 }
 
 .button:hover {
-    background-color: var(--main-color);
+    background-color: var(--primary-color);
 }
 .button:hover span {
     color: var(--secondary-color) !important;
