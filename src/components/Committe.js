@@ -10,9 +10,9 @@ function Committe(props) {
             <div className='committe-content'>
                 <span className='h2'>{props.title}</span>
                 <span className='p'>{props.desc}</span>
+            
+                <Button className='p' text='Learn More'/>
             </div>
-
-            <Button className='p' text='Learn More'/>
         </div>
     );
 }

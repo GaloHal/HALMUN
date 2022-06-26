@@ -1,12 +1,26 @@
 .committe-container {
-    width: 30%;
-
+    width: 100%;
+    height: 100%;
+    
     display: flex;
-
     flex-direction: column;
 }
-.committe-content {
-    display: flex;
+.committe-container img {
+    width: 100%;
+    min-height: 50%;
 
+    object-fit: cover;
+}
+
+.committe-content {
+    padding: 0.5rem;
+
+    height: 100%;
+
+    display: flex;
     flex-direction: column;
+}
+
+.committe-content .button {
+    margin-top: auto;
 }

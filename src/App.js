@@ -34,37 +34,36 @@ function App() {
 					</div>
 				</div>
 			</header>
-			<main>
-				
-				<div className='content'>
+			<main className='content'>
+				<div className='committe-content'>
 					<Title
 						className='h2'
 						text='Committes'
 					/>
 
-					<ul className='committes-list'>
-						<li className='committe-item'>
+					<ul className='committes-grid'>
+						<li className='committe-grid-item'>
 							<Committe
 								imgSrc='./images/unsc.jpeg'
 								title='UNSC'
 								desc='The United Nations Security Council (UNSC) focuses on peace making and security, as well as the safety of all nations.'
 							/>
 						</li>
-						<li className='committe-item'>
+						<li className='committe-grid-item'>
 							<Committe
 								imgSrc='./images/cstd.jpeg'
 								title='CSTD'
 								desc='The United Nations Commission on Science and Technology for Development is a subsidiary body of the Economic and Social Council. It is responsible for solving problems impacting science, technology and development.'
 							/>
 						</li>
-						<li className='committe-item'>
+						<li className='committe-grid-item'>
 							<Committe
 								imgSrc='./images/who.jpeg'
 								title='WHO'
 								desc='The World Health Organization is a specialized agency of the United Nations responsible for international public health.'
 							/>
 						</li>
-						<li className='committe-item'>
+						<li className='committe-grid-item'>
 							<Committe
 								imgSrc='./images/unhrc.jpeg'
 								title='UNHRC'
