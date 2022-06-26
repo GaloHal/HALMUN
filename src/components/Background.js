@@ -1,8 +1,14 @@
 import './Background.css';
 
-function Background() {
+function Background(props) {
     return (
-        <div className='background-image' alt='Background'/> 
+        <div 
+            className='background-image' 
+            alt='Background'
+            style={{
+                backgroundImage: `url(${props.imgSrc})`
+            }}    
+        /> 
     );
 }
 

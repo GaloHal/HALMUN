@@ -1,35 +1,3 @@
-header {
-    display: block;
-    height: 100vh;
-    width: 100vw;
-}
-
-.header-container {
-    width: 100%;
-    height: 100%;
-}
-.header-content {
-    width: min-content;
-    height: 100%;
-
-    margin: 0 auto;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.header-content span {
-    color: var(--secondary-color);
-}
-.header-content hr {
-    border: var(--secondary-color) solid 1px;
-}
-.header-description {
-    text-align: justify;
-    margin: 1rem 10rem 5rem 10rem;
-}
-
 .content {
     margin: 3rem 3rem;
 }
