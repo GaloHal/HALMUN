@@ -8,7 +8,7 @@ export const committesData = [
         "detailed-description": "In this committee delegates will work to maintain international peace and security, to develop friendly relations among the nations, to collaborate in promoting respect for human rights and in solving international issues, and to be a centre for harmonizing the actions of nations. To keep or restore international peace and safety, the Security Council may impose sanctions or even approve the use of force.",
     
         "chair-name": "Anuar Kul-Mukhammed",
-        "chair-image": "/images/team/anuar-HALMUN,jpeg",
+        "chair-image": "/images/team/anuar-HALMUN.jpeg",
         "chair-description": "Balancing between war and peace is no easy feat, but it is our duty as delegates to guide our world to become a better, more prosperous place. Hopefully in this conference, we can foster engrossing discussions and stimulating debates, challenge each other’s ability to think on their feet and most of all work together to reach a common goal. So, as Helen Keller once said, “Alone we can do so little; together we can do so much."
     },
     {

@@ -1,0 +1,16 @@
+.chair-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.chair-image {
+    margin-right: 3rem;
+    width: 100%;
+}
+.chair-image img {
+    width: 100%;
+}
+
+.chair-info {
+    max-width: 20%;
+}

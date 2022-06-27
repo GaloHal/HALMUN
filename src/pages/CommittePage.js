@@ -5,6 +5,8 @@ import Title from '../components/Title';
 
 import { committesData } from '../schemas/committeData';
 
+import styles from './CommittePage.module.css';
+
 function CommittePage() {
     const { id } = useParams();
 
@@ -32,26 +34,24 @@ function CommittePage() {
                 )}
             />
             <main>
-                <div className='chair-content content'>
-                    <Title
-                        textClassName='h2'
-                        text='About the Chair'
-                    />
+                <div className={styles['chair-content'] + ' content'}>
 
-                    <div className='chair-content-inner'>
-                        <div className='chair-image'>
-                            <img src={committe['chair-image']} alt={committe['chair-name']} />
-                        </div>
+                    <div className={styles['chair-image']}>
+                        <img src={committe['chair-image']} alt={committe['chair-name']} />
+                    </div>
 
-                        <div className='chair-info'>
-                            <span className='p'>
-                                Message from {committe['chair-name']}:
-                                <br/>
-                            </span>
-                            <span className='p'>
-                                {committe['chair-description']}
-                            </span>
-                        </div>
+                    <div className='chair-info'>
+                        <Title
+                            textClassName='h2'
+                            text='Chair Information'
+                            desc={{
+                                text: `Message from ${committe['chair-name']}:`,
+                                className: 'p bold'
+                            }}
+                        />
+                        <span className='p '>
+                            {committe['chair-description']}
+                        </span>
                     </div>
                 </div>
             </main>
