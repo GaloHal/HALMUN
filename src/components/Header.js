@@ -11,7 +11,7 @@ function Header(props) {
 
             <div className='header-container'>
                 <div className='header-content'>
-                    {props.content}
+                    {props.content()}
                 </div>
             </div>
         </header>

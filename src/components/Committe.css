@@ -21,6 +21,9 @@
     flex-direction: column;
 }
 
-.committe-content .button {
+.committe-content a {
     margin-top: auto;
+}
+.committe-content a .button {
+    width: 100%;
 }

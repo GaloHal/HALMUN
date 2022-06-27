@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import Button from './Button';
 import './Committe.css';
 
@@ -10,8 +12,10 @@ function Committe(props) {
             <div className='committe-content'>
                 <span className='h2'>{props.title}</span>
                 <span className='p'>{props.desc}</span>
-            
-                <Button className='p' text='Learn More'/>
+
+                <Link to={props.link} replace>
+                    <Button className='p' text='Learn More'/>
+                </Link>
             </div>
         </div>
     );

@@ -4,13 +4,15 @@ import Title from '../components/Title';
 import Committe from '../components/Committe';
 import Button from '../components/Button';
 
+import { committesData } from '../schemas/committeData';
+
 import '../App.css';
 
 function Home() {
     return (
         <>
             <Header
-                backgroundImgSrc='/images/home-background.jpg'
+                backgroundImgSrc='/images/background.jpeg'
                 content={() => (
                     <>
                         <Title 
@@ -47,36 +49,19 @@ function Home() {
 						className='h2'
 						text='Committes'
 					/>
-
 					<ul className='committes-grid'>
-						<li className='committe-grid-item'>
-							<Committe
-								imgSrc='./images/unsc.jpeg'
-								title='UNSC'
-								desc='The United Nations Security Council (UNSC) focuses on peace making and security, as well as the safety of all nations.'
-							/>
-						</li>
-						<li className='committe-grid-item'>
-							<Committe
-								imgSrc='./images/cstd.jpeg'
-								title='CSTD'
-								desc='The United Nations Commission on Science and Technology for Development is a subsidiary body of the Economic and Social Council. It is responsible for solving problems impacting science, technology and development.'
-							/>
-						</li>
-						<li className='committe-grid-item'>
-							<Committe
-								imgSrc='./images/who.jpeg'
-								title='WHO'
-								desc='The World Health Organization is a specialized agency of the United Nations responsible for international public health.'
-							/>
-						</li>
-						<li className='committe-grid-item'>
-							<Committe
-								imgSrc='./images/unhrc.jpeg'
-								title='UNHRC'
-								desc='The United Nations Human Rights Council (UNHRC) is responsible for the protection and promotion of all human rights globally.'
-							/>
-						</li>
+						{committesData.map((data, key) => {
+							return (
+								<li className='committe-grid-item'>
+									<Committe
+										imgSrc={data['image']}
+										link={`../committes/${data['id']}`}
+										title={data['name']}
+										desc={data['short-description']}
+									/>
+								</li>
+							);
+						})}
 					</ul>
 				</div>
 			</main>
