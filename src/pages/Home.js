@@ -13,33 +13,27 @@ function Home() {
         <>
             <Header
                 backgroundImgSrc='/images/background.jpeg'
-                content={() => (
-                    <div className='header-content header-content--middle'>
-                        <Title 
-                            textClassName='h1 white'
-                            hrClassName='white'
-                            text='Welcome to HALMUN!'
-                            desc={{
-                                text:'HALMUN is a free Model United Nations conference that is organised by the Haileybury Almaty school.',
-                                className: 'p bold white'
-                            }}
-                        />
-                        <span className='p bold white'>
-                            
-                        </span>
-                        <span className='p header-description white'>
-                            Now is the time for youth to find their voice in the world and HALMUN provides just that opportunity. 
-                            Enhance your public speaking skills, master the power of team work, expand your knowledge about our ever 
-                            changing world, and most importantly have fun.
-                            <br/><br/>
-                            This year, HALMUN consists of 4 committees including: the United Nations Security Council (UNSC), the 
-                            United Nations Commission on Science and Technology for Development (CSTD), the World Health Organization (WHO), 
-                            and the United Nations Human Rights Council (UNHRC). 
-                        </span>
-                        <Button textClassName='p' text='Register'/>
-                    </div>
-                )}
-            />
+                className='header-content header-content--middle'>
+                <Title 
+                    textClassName='h1 white'
+                    hrClassName='white'
+                    text='Welcome to HALMUN!'
+                    desc={{
+                        text:'HALMUN is a free Model United Nations conference that is organised by the Haileybury Almaty school.',
+                        className: 'p bold white'
+                    }}
+                />
+                <span className='p header-description white'>
+                    Now is the time for youth to find their voice in the world and HALMUN provides just that opportunity. 
+                    Enhance your public speaking skills, master the power of team work, expand your knowledge about our ever 
+                    changing world, and most importantly have fun.
+                    <br/><br/>
+                    This year, HALMUN consists of 4 committees including: the United Nations Security Council (UNSC), the 
+                    United Nations Commission on Science and Technology for Development (CSTD), the World Health Organization (WHO), 
+                    and the United Nations Human Rights Council (UNHRC). 
+                </span>
+                <Button textClassName='p' text='Register'/>
+            </Header>
 			<main>
 				<div className='news-updates-content content'>
 					<Title

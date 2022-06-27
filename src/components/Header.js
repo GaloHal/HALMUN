@@ -10,7 +10,9 @@ function Header(props) {
             <Background imgSrc={props.backgroundImgSrc}/>
 
             <div className='header-container'>
-                {props.content()}
+                <div className={props.className}>
+                    {props.children}
+                </div>
             </div>
         </header>
     );

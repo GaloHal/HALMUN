@@ -16,23 +16,20 @@ function CommittePage() {
         <>
             <Header
                 backgroundImgSrc={committe['image']}
-                content={() => (
-                    <div className='header-content header-content--left'>
-                        <Title
-                            textClassName='h1 white'
-                            hrClassName='white'
-                            text={committe['full-name']}
-                            desc={{
-                                text: committe['short-description'],
-                                className: 'p bold white'
-                            }}
-                        />
-                        <span className='p white header-description'>
-                            {committe['detailed-description']}
-                        </span>
-                    </div>
-                )}
-            />
+                className='header-content header-content--left'>
+                <Title
+                    textClassName='h1 white'
+                    hrClassName='white'
+                    text={committe['full-name']}
+                    desc={{
+                        text: committe['short-description'],
+                        className: 'p bold white'
+                    }}
+                />
+                <span className='p white header-description'>
+                    {committe['detailed-description']}
+                </span>
+            </Header>
             <main>
                 <div className={styles['chair-content'] + ' content'}>
 

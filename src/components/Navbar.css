@@ -26,8 +26,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-
+    justify-content: space-evenly;
+}
+.nav-icon svg {
+    fill:rgba(255, 255, 255, 0.70);
+    width: 1.5rem;
+    height: 1.5rem;
 }
 .nav-item span {
     text-transform: uppercase;
@@ -38,6 +42,9 @@
 }
 .nav-item:hover span {
     color:rgba(255, 255, 255, 1);
+}
+.nav-item:hover .nav-icon {
+    fill:rgba(255, 255, 255, 1);
 }
 
 
