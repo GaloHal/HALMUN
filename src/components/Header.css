@@ -12,19 +12,24 @@ header {
     width: min-content;
     height: 100%;
 
-    margin: 0 auto;
-
     display: flex;
     flex-direction: column;
+}
+.header-content--middle {    
+    margin: 0 auto;
+    
     align-items: center;
     justify-content: center;
 }
-.header-content span {
-    color: var(--secondary-color);
+.header-content--left {
+    width: fit-content;
+
+    margin: 0 3rem;
+
+    align-items: flex-start;
+    justify-content: center;
 }
-.header-content hr {
-    border: var(--secondary-color) solid 1px;
-}
+
 .header-description {
     text-align: justify;
     margin: 3rem 0;

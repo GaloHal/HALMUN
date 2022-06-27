@@ -11,3 +11,8 @@ hr {
     border: var(--primary-color) solid 1px;
 	width: 100%;
 }
+
+.desc {
+    min-width: 100%;
+    width: min-content;
+}

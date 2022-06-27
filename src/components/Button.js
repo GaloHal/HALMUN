@@ -2,8 +2,8 @@ import './Button.css';
 
 function Button(props) {
     return (
-        <button className='button'>
-            <span className={props.className}>{props.text}</span>
+        <button className={'button ' + props.className}>
+            <span className={props.textClassName}>{props.text}</span>
         </button>
     );
 }

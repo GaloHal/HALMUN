@@ -3,7 +3,7 @@ import './Title.css';
 function addDescription(props) {
     if ('desc' in props) {
         return (
-            <span className={props.desc.className}>
+            <span className={'desc ' + props.desc.className}>
                 {props.desc.text}
             </span>
         );
@@ -14,8 +14,8 @@ function addDescription(props) {
 function Title(props) {
     return (
         <div className='title'>
-            <span className={props.className}>{props.text}</span>
-            <hr></hr>
+            <span className={props.textClassName}>{props.text}</span>
+            <hr className={props.hrClassName}></hr>
             {addDescription(props)}
         </div>
     );
