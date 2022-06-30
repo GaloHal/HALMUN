@@ -1,6 +1,3 @@
-import { ReactComponent as InstagramIcon } from '../icons/instagram.svg';
-import { ReactComponent as GmailIcon } from '../icons/gmail.svg';
-
 import { Link } from 'react-router-dom';
 
 import styles from './Footer.module.css'; 
@@ -45,7 +42,7 @@ function Footer() {
             </span>
 
             <span className={'p gray ' + styles['copyright']}>
-                Website Managed By Amir Nurmukhambetov
+                Website managed by Amir Nurmukhambetov
             </span>
         </footer>
     );

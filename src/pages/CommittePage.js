@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Title from '../components/Title';
+import Button from '../components/Button';
 
 import { committesData } from '../schemas/committeData';
 
@@ -30,6 +31,9 @@ function CommittePage() {
                 <span className='p white header-description'>
                     {committe['detailed-description']}
                 </span>
+                <a href='https://www.youtube.com/' target='_blank'>
+                    <Button textClassName='p' text='Register'/>
+                </a>
             </Header>
             <main>
                 <div className={styles['chair-content'] + ' content'}>
