@@ -4,6 +4,7 @@ import Title from '../components/Title';
 import Committe from '../components/Committe';
 import Button from '../components/Button';
 
+import { Link } from 'react-router-dom';
 import { committesData } from '../schemas/committeData';
 
 import '../App.css';
@@ -32,7 +33,11 @@ function Home() {
                     United Nations Commission on Science and Technology for Development (CSTD), the World Health Organization (WHO), 
                     and the United Nations Human Rights Council (UNHRC). 
                 </span>
-                <Button textClassName='p' text='Register'/>
+
+                <Link to='../registration'>
+                    <Button textClassName='p' text='Register'/>
+                </Link>
+
             </Header>
 			<main>
 				<div className='news-updates-content content'>

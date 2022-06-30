@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom';
 
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import Title from '../components/Title';
 
 import { committesData } from '../schemas/committeData';
@@ -52,6 +53,8 @@ function CommittePage() {
                     </div>
                 </div>
             </main>
+
+            <Footer/>
         </>
     );
 }

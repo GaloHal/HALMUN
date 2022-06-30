@@ -25,10 +25,12 @@
 	--secondary-color: #FFFFFF;
 	--tertiary-color: #222222;
 	--black: #000000;
+	--gray: #adacae;
 }
 
 a {
 	text-decoration: none;
+	color: inherit;
 }
 
 body {
@@ -77,4 +79,8 @@ body {
 .white {
 	color: var(--secondary-color);
 	border-color: var(--secondary-color);
+}
+.gray {
+	color: var(--gray);
+	border-color: var(--gray);
 }

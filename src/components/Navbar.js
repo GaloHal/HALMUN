@@ -5,21 +5,22 @@ import { useState } from 'react';
 
 import { committesData } from '../schemas/committeData';
 
-import './Navbar.css';
+import styles from './Navbar.module.css';
 
 function NavItem(props) {
     const [open, setOpen] = useState(false);
 
     return (
-        <li className='nav-item'>
-            <Link to={props.path}>
-                <span className="p">{props.text}</span>
-            </Link>
-            
-            <i className='nav-icon' onClick={() => setOpen(!open)}>
-                {props.icon}
-            </i>
-
+        <li className={styles['nav-item']}>
+            <div className={styles['nav-item-content']}>
+                <Link to={props.path}>
+                    <span className="p">{props.text}</span>
+                </Link>
+                
+                <i className={styles['nav-icon']} onClick={() => setOpen(!open)}>
+                    {props.icon}
+                </i>
+            </div>
             {open && props.children}
         </li>
     );
@@ -30,8 +31,8 @@ function DropDownMenu() {
         const committe = committesData.find(data => data['id'] === props.id);
 
         return (
-            <li className='menu-item'>
-                <Link to={'/committes/' + committe.id}>
+            <li className={styles['menu-item']}>
+                <Link to={'../committes/' + committe.id}>
                     <span className="p">{committe.name}</span>
                 </Link>
             </li>
@@ -39,10 +40,10 @@ function DropDownMenu() {
     }
 
     return (
-        <ul className='drop-down-menu'>
-            {committesData.map(committe => (
-                <DropDownItem key={committe['id']}/>
-            ))}
+        <ul className={styles['drop-down-menu']}>
+            {committesData.map(committe => {
+                return (<DropDownItem id={committe['id']}/>);
+            })}
         </ul>
     );
 }
@@ -50,12 +51,12 @@ function DropDownMenu() {
 
 function Navbar() {
     return (
-        <nav className='navbar'>
-            <ul className='navbar-nav'>
+        <nav className={styles['navbar']}>
+            <ul className={styles['navbar-nav']}>
                 <NavItem path='/' text='Home' />
                 <NavItem path='../news-and-updates' text='News & Updates' />
 
-                <li className='logo'>
+                <li className={styles['nav-logo']}>
                     <img src='/images/logo.png' alt='logo'/>
                 </li>
                 
