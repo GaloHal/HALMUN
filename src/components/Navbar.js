@@ -1,49 +1,53 @@
 import { ReactComponent as CaretIcon } from '../icons/caret.svg';
 
-import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
 import { committesData } from '../schemas/committeData';
+import { infoData } from '../schemas/infoData';
 
 import styles from './Navbar.module.css';
 
-function NavItem(props) {
+function NavItem({
+    path,
+    text,
+    children,
+    icon=<></>,
+    isDropDown=false,
+    className = 'nav-item',
+    }) {
+
     const [open, setOpen] = useState(false);
 
     return (
-        <li className={styles['nav-item']}>
-            <div className={styles['nav-item-content']}>
-                <Link to={props.path}>
-                    <span className="p">{props.text}</span>
-                </Link>
-                
-                <i className={styles['nav-icon']} onClick={() => setOpen(!open)}>
-                    {props.icon}
-                </i>
-            </div>
-            {open && props.children}
+        <li className={styles[className]}
+            onMouseEnter={() => setOpen(true)}
+            onMouseLeave={() => setOpen(false)}>
+
+            {
+                text ? (
+                    <div className={styles['nav-item-content']}>    
+                        <a href={path} className='p'>{text}</a>
+                        {icon}
+                    </div>
+                ) : null
+            }
+
+            { isDropDown ? (open && children) : children }
         </li>
     );
 }
 
-function DropDownMenu() {
-    function DropDownItem(props) {
-        const committe = committesData.find(data => data['id'] === props.id);
-
-        return (
-            <li className={styles['menu-item']}>
-                <Link to={'../committes/' + committe.id}>
-                    <span className="p">{committe.name}</span>
-                </Link>
-            </li>
-        );
-    }
-
+function DropDownItem(props) {
+    return (
+        <li className={styles['menu-item']}>
+            <a href={props.path} className='p'>{props.text}</a>
+        </li>
+    );
+}
+function DropDownMenu(props) {
     return (
         <ul className={styles['drop-down-menu']}>
-            {committesData.map(committe => {
-                return (<DropDownItem id={committe['id']}/>);
-            })}
+            {props.children}
         </ul>
     );
 }
@@ -53,16 +57,42 @@ function Navbar() {
     return (
         <nav className={styles['navbar']}>
             <ul className={styles['navbar-nav']}>
-                <NavItem path='/' text='Home' />
-                <NavItem path='../news-and-updates' text='News & Updates' />
-
-                <li className={styles['nav-logo']}>
-                    <img src='/images/logo.png' alt='logo'/>
-                </li>
+                <NavItem path='../' text='Home' />
                 
-                <NavItem path='../registration' text='Registration'/>
-                <NavItem path='../committes' text='Committes' icon={<CaretIcon/>}>
-                    <DropDownMenu />
+                <NavItem 
+                    path='../about' 
+                    text='About' 
+                    icon={<CaretIcon />} 
+                    isDropDown={true}
+                >
+                    <DropDownMenu>
+                        <DropDownItem path='../information' text='Information'/>
+                        <DropDownItem path='../secretariat' text='Secretariat'/>
+                    </DropDownMenu>
+                </NavItem>
+
+                <NavItem className='nav-logo'>
+                    <img src='/images/logo.png' alt='logo'/>
+                </NavItem>
+                
+                <NavItem path={infoData['registration-link']} text='Registration'/>
+                
+                <NavItem 
+                    path='../committes' 
+                    text='Committes' 
+                    icon={<CaretIcon />} 
+                    isDropDown={true}
+                >
+                    <DropDownMenu>
+                        {committesData.map(committe => {
+                            return (
+                                <DropDownItem 
+                                    path={'../committes/' + committe.id}
+                                    text={committe.name} 
+                                />
+                            );
+                        })}
+                    </DropDownMenu>
                 </NavItem>
             </ul>
         </nav>

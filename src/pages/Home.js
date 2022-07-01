@@ -1,10 +1,7 @@
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Title from '../components/Title';
-import Committe from '../components/Committe';
 import Button from '../components/Button';
-
-import { committesData } from '../schemas/committeData';
 
 import '../App.css';
 import { infoData } from '../schemas/infoData';
@@ -25,49 +22,18 @@ function Home() {
                     }}
                 />
                 <span className='p header-description white'>
-                    Now is the time for youth to find their voice in the world and HALMUN provides just that opportunity. 
-                    Enhance your public speaking skills, master the power of team work, expand your knowledge about our ever 
-                    changing world, and most importantly have fun.
-                    <br/><br/>
-                    This year, HALMUN consists of 3 committees including: the United Nations Security Council (UNSC), the 
-                    the United Nations Human Rights Council (UNHRC), and the Economic and Financial Affairs Council configuration (ECOFIN). 
+                    HALMUN is a free online Model United Nations conference that is organised by the Haileybury Almaty school. ​ 
+                    Now is the time for youth to find their voice in the world and HALMUN provides just that opportunity. Enhance your public speaking skills, master the power of teamwork and meet people from all over the world.
+
+                    HALMUN 2022 is the second iteration of the conference, this time consisting of 3 committees: the United Nations Security Council (UNSC), the United Nations High Commissioner for Refugees (UNHCR), and the Economic and Financial Committee (ECOFIN).
                 </span>
 
-                <a href='https://www.youtube.com/' target='_blank'>
+                <a href={infoData['registration-link']}>
                     <Button textClassName='p' text='Register'/>
                 </a>
 
             </Header>
 			<main>
-				{/* <div className='news-updates-content content'>
-					<Title
-						textClassName='h2'
-						text='News & Updates'
-					/>
-
-				</div> */}
-
-				<div className='committe-content content'>
-					<Title
-						textClassName='h2'
-						text='Committes'
-					/>
-					<ul className='committes-grid'>
-						{committesData.map((data, key) => {
-							return (
-								<li className='committe-grid-item'>
-									<Committe
-										imgSrc={data['image']}
-										link={`../committes/${data['id']}`}
-										title={data['name']}
-										desc={data['short-description']}
-									/>
-								</li>
-							);
-						})}
-					</ul>
-				</div>
-                
                 <div class='date-info-content content'>
                     <Title
                         textClassName='h2'
