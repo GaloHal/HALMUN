@@ -14,7 +14,7 @@ function NavItem({
     icon=<></>,
     isDropDown=false,
     className = 'nav-item',
-    }) {
+}) {
 
     const [open, setOpen] = useState(false);
 

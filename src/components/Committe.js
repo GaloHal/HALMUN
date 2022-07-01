@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
-import Button from './Button';
-import styles  from './Committe.module.css';
+import { LinkButton } from './Buttons';
+import styles from './Committe.module.css';
 
 
 function Committe(props) {
@@ -13,12 +13,12 @@ function Committe(props) {
                 <span className='h2'>{props.title}</span>
                 <span className='p'>{props.desc}</span>
 
-                <Link to={props.link} className={styles['learn-more']}>
-                    <Button
-                        className={styles['learn-more-button']} 
-                        textClassName='p' 
-                        text='Learn More'/>
-                </Link>
+                <LinkButton 
+                    to={props.link}
+                    className={styles['learn-more-button']}
+                >
+                    Learn More
+                </LinkButton>
             </div>
         </div>
     );

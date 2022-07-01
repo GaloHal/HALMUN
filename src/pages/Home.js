@@ -1,7 +1,7 @@
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Title from '../components/Title';
-import Button from '../components/Button';
+import { LinkButton } from '../components/Buttons';
 
 import '../App.css';
 import { infoData } from '../schemas/infoData';
@@ -28,11 +28,9 @@ function Home() {
                     HALMUN 2022 is the second iteration of the conference, this time consisting of 3 committees: the United Nations Security Council (UNSC), the United Nations High Commissioner for Refugees (UNHCR), and the Economic and Financial Committee (ECOFIN).
                 </span>
 
-                <a href={infoData['registration-link']}>
-                    <Button textClassName='p' text='Register'/>
-                </a>
-
+                <LinkButton to={infoData['registration-link']}>Register</LinkButton>
             </Header>
+            
 			<main>
                 <div class='date-info-content content'>
                     <Title

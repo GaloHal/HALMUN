@@ -1,22 +1,18 @@
 .button {
-
-    padding: 0.5rem 2rem;
+    padding: 0.75rem 2rem;
 
     border: none;
     background-color: var(--secondary-color);
 
     transition: 300ms ease-in-out;
-}
-.button span {
+
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: var(--primary-color) !important;
+    color: var(--primary-color);
 }
 
 .button:hover {
     background-color: var(--primary-color);
-}
-.button:hover span {
-    color: var(--secondary-color) !important;
+    color: var(--secondary-color);
 }
