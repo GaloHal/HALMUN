@@ -1,17 +1,27 @@
 import Navbar from '../Navbar';
 import Background from '../Background';
 
-import './Header.css';
+import styles from './Header.module.css';
 
-function Header(props) {
+function Header({
+    backgroundImgSrc,
+    type = 'header-content--middle',
+    title,
+    desc = '',
+    children,
+}) {
     return (
         <header>
             <Navbar/>
-            <Background imgSrc={props.backgroundImgSrc}/>
+            <Background imgSrc={backgroundImgSrc}/>
 
-            <div className='header-container'>
-                <div className={props.className}>
-                    {props.children}
+            <div className={styles['header-container']}>
+                <div className={`${styles['header-content']} ${styles[type]}`}>
+                    {title}
+
+                    <span className={`lrg ${styles['header-desc']}`}>{desc}</span>
+
+                    {children && children}
                 </div>
             </div>
         </header>

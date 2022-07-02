@@ -19,6 +19,11 @@
 	font-weight: bold;
 	src: url(./fonts/OpenSans/OpenSans-Bold.ttf) format('truetype');
 }
+@font-face {
+	font-family: 'Garamond';
+	src: url(./fonts/Garamond/EBGaramond-Regular.ttf) format('truetype');
+}
+
 
 :root {
 	--primary-color: #DB1278;
@@ -61,6 +66,10 @@ body {
 	color: var(--black);
 }
 
+.lrg {
+	font-size: 1.5rem;
+}
+
 .p {
 	font-family: Open Sans;
 	font-weight: normal;
@@ -68,6 +77,10 @@ body {
 	line-height: 22px;
 
 	color: inherit;
+}
+
+.right {
+	text-align: right;
 }
 
 .bold {

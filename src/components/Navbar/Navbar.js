@@ -60,7 +60,7 @@ function Navbar() {
                 <NavItem path='../' text='Home' />
                 
                 <NavItem 
-                    path='../about' 
+                    path='../information' 
                     text='About' 
                     icon={<CaretIcon />} 
                     isDropDown={true}

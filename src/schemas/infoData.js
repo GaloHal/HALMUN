@@ -5,5 +5,5 @@ export const infoData = {
             'date': '8th and 9th of October'
         }
     ],
-    'registration-link': 'https://forms.gle/6UdB5rmd485r5CRG9'
+    'registration-link': 'https://forms.gle/6UdB5rmd485r5CRG9',
 }

@@ -15,15 +15,16 @@ function MainCommittePage() {
         <>
             <Header
                 backgroundImgSrc='/images/background.jpeg'
-                className='header-content header-content--left'>
-				<Title
-					text='Committes'
-				/>
-				<span className='p header-description white'>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</span>
+                type='header-content--middle'
+				title = {
+					<Title
+						text='Committes'
+					/>
+				}
+				desc = 'Select a committe to learn more about it'
+			>
 
-				<LinkButton to={infoData['registration-link']}>Register</LinkButton>
+				<LinkButton to={infoData['registration-link']}>Register Here</LinkButton>
 			</Header>
 
             <main>

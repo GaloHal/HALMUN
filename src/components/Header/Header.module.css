@@ -9,12 +9,19 @@ header {
     height: 100%;
 }
 .header-content {
-    width: min-content;
+    width: fit-content;
     height: 100%;
 
     display: flex;
     flex-direction: column;
+
+    color: white;
+    fill: currentColor;
 }
+.header-desc {
+    margin: 3rem 0;
+}
+
 .header-content--middle {    
     margin: 0 auto;
     
@@ -28,9 +35,4 @@ header {
 
     align-items: flex-start;
     justify-content: center;
-}
-
-.header-description {
-    text-align: justify;
-    margin: 3rem 0;
 }
