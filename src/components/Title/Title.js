@@ -6,7 +6,7 @@ function Title({
     textSize = 'h1',
 }) {
     return (
-        <div className={styles['title']}>
+        <div className={`${styles['title']} title`}>
             <span className={textSize}>{text}</span>
 
             <hr/>
