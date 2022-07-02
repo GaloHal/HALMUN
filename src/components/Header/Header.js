@@ -19,7 +19,7 @@ function Header({
                 <div className={`${styles['header-content']} ${styles[type]}`}>
                     {title}
 
-                    <span className={`lrg ${styles['header-desc']}`}>{desc}</span>
+                    <span className={`p bold ${styles['header-desc']}`}>{desc}</span>
 
                     {children && children}
                 </div>

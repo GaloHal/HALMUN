@@ -67,7 +67,7 @@ function Navbar() {
                 >
                     <DropDownMenu>
                         <DropDownItem path='../information' text='Information'/>
-                        <DropDownItem path='../secretariat' text='Secretariat'/>
+                        <DropDownItem path='../abous-us' text='Secretariat'/>
                     </DropDownMenu>
                 </NavItem>
 

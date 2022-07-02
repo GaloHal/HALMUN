@@ -1,14 +1,14 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import Title from '../components/Title';
-import LinkButton from '../components/LinkButton';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import Title from '../../components/Title';
+import LinkButton from '../../components/LinkButton';
 
-import { infoData } from '../schemas/infoData';
+import { infoData } from '../../schemas/infoData';
 
-import styles from './Home.module.css';
-import './Page.css';
+import styles from './HomePage.module.css';
+import '../Page.css';
 
-function Home() {
+function HomePage() {
     return (
         <>
             <Header
@@ -55,4 +55,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default HomePage;

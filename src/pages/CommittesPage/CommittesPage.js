@@ -1,16 +1,16 @@
-import Header from '../components/Header';
-import Title from '../components/Title';
-import Committe from '../components/Committe';
-import LinkButton from '../components/LinkButton';
-import Footer from '../components/Footer';
+import Header from '../../components/Header';
+import Title from '../../components/Title';
+import Committe from '../../components/Committe';
+import LinkButton from '../../components/LinkButton';
+import Footer from '../../components/Footer';
 
-import { committesData } from '../schemas/committeData';
-import { infoData } from '../schemas/infoData';
+import { committesData } from '../../schemas/committeData';
+import { infoData } from '../../schemas/infoData';
 
-import styles from './MainCommittePage.module.css';
-import './Page.css';
+import styles from './CommittesPage.module.css';
+import '../Page.css';
 
-function MainCommittePage() {
+function CommittesPage() {
     return (
         <>
             <Header
@@ -55,4 +55,4 @@ function MainCommittePage() {
     );
 }
 
-export default MainCommittePage;
+export default CommittesPage;

@@ -13,7 +13,7 @@ function Title({
 
             {
                 desc ? (
-                    <span className={styles['desc']}> {desc} </span>
+                    <span className={`p ${styles['desc']}`}> {desc} </span>
                 ): null
             }
         </div>

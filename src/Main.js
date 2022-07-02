@@ -1,20 +1,22 @@
 import {Route, Routes} from 'react-router-dom';
 
-import Home from './pages/Home';
-import MainCommittePage from './pages/MainCommittePage';
-import CommittePage from './pages/CommittePage';
+import HomePage from './pages/HomePage';
+import CommittesPage from './pages/CommittesPage';
+import DetailCommittePage from './pages/DetailCommittePage';
+import InformationPage from './pages/InformationPage';
+import AboutUsPage from './pages/AboutUsPage';
 
 function Main() {
     return (
         <Routes>
-            <Route exact path='/' element={<Home />} />
-            <Route exact path='/about-us' element={<Home />} />
-            <Route exact path='/information' element={<Home />} />
+            <Route exact path='/' element={<HomePage />} />
+            <Route exact path='/about-us' element={<AboutUsPage />} />
+            <Route exact path='/information' element={<InformationPage />} />
             
-            <Route exact path='/news-and-updates' element={<Home />} />
+            <Route exact path='/news-and-updates' element={<HomePage />} />
             
-            <Route exact path='/committes' element={<MainCommittePage />} />
-            <Route exact path='/committes/:id' element={<CommittePage />} />
+            <Route exact path='/committes' element={<CommittesPage />} />
+            <Route exact path='/committes/:id' element={<DetailCommittePage />} />
         </Routes>
     );
 }

@@ -11,7 +11,7 @@
 }
 
 .title hr {
-    border: var(--primary-color) solid 1px;
+    border: currentColor solid 1px;
 	width: 100%;
 }
 
