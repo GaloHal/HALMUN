@@ -13,13 +13,8 @@ function Home() {
                 backgroundImgSrc='/images/background.jpeg'
                 className='header-content header-content--middle'>
                 <Title 
-                    textClassName='h1 white'
-                    hrClassName='white'
                     text='Welcome to HALMUN!'
-                    desc={{
-                        text:'HALMUN is a free Model United Nations conference that is organised by the Haileybury Almaty school.',
-                        className: 'p bold white'
-                    }}
+                    desc='HALMUN is a free Model United Nations conference that is organised by the Haileybury Almaty school.'
                 />
                 <span className='p header-description white'>
                     HALMUN is a free online Model United Nations conference that is organised by the Haileybury Almaty school. ​ 
@@ -30,12 +25,12 @@ function Home() {
 
                 <LinkButton to={infoData['registration-link']}>Register</LinkButton>
             </Header>
-            
+
 			<main>
                 <div class='date-info-content content'>
                     <Title
-                        textClassName='h2'
                         text='Future Conference Dates'
+                        textSize='h2'
                     />
 
                     <ul className='date-list'>

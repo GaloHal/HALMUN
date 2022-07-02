@@ -1,22 +1,21 @@
-import './Title.css';
+import styles from './Title.module.css';
 
-function addDescription(props) {
-    if ('desc' in props) {
-        return (
-            <span className={'desc ' + props.desc.className}>
-                {props.desc.text}
-            </span>
-        );
-    }
-    return (<></>);
-}
-
-function Title(props) {
+function Title({
+    text,
+    desc,
+    textSize = 'h1',
+}) {
     return (
-        <div className='title'>
-            <span className={props.textClassName}>{props.text}</span>
-            <hr className={props.hrClassName}></hr>
-            {addDescription(props)}
+        <div className={styles['title']}>
+            <span className={textSize}>{text}</span>
+
+            <hr/>
+
+            {
+                desc ? (
+                    <span className={styles['desc']}> {desc} </span>
+                ): null
+            }
         </div>
     );
 }

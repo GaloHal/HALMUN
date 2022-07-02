@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-
 import { LinkButton } from './Buttons';
 import styles from './Committe.module.css';
 

@@ -14,8 +14,6 @@ function MainCommittePage() {
                 backgroundImgSrc='/images/background.jpeg'
                 className='header-content header-content--left'>
 				<Title
-					textClassName='h1 white'
-					hrClassName='white'
 					text='Committes'
 				/>
 				<span className='p header-description white'>
@@ -28,8 +26,8 @@ function MainCommittePage() {
             <main>
            		<div className='committe-content content'>
 					<Title
-						textClassName='h2'
 						text='Committes'
+						textSize='h2'
 					/>
 					<ul className='committes-grid'>
 						{committesData.map((data, key) => {

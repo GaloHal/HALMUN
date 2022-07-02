@@ -21,13 +21,8 @@ function CommittePage() {
                 backgroundImgSrc={committe['image']}
                 className='header-content header-content--left'>
                 <Title
-                    textClassName='h1 white'
-                    hrClassName='white'
                     text={committe['full-name']}
-                    desc={{
-                        text: committe['short-description'],
-                        className: 'p bold white'
-                    }}
+                    desc={committe['short-description']}
                 />
                 <span className='p white header-description'>
                     {committe['detailed-description']}
@@ -44,14 +39,11 @@ function CommittePage() {
 
                     <div className='chair-info'>
                         <Title
-                            textClassName='h2'
                             text='Chair Information'
-                            desc={{
-                                text: `Message from ${committe['chair-name']}:`,
-                                className: 'p bold'
-                            }}
+                            desc={`Message from ${committe['chair-name']}:`}
+                            textSize='h2'
                         />
-                        <span className='p '>
+                        <span className='p'>
                             {committe['chair-description']}
                         </span>
                     </div>
