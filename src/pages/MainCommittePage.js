@@ -1,7 +1,7 @@
 import Header from '../components/Header';
 import Title from '../components/Title';
 import Committe from '../components/Committe';
-import { LinkButton } from '../components/Buttons';
+import LinkButton from '../components/LinkButton';
 import Footer from '../components/Footer';
 
 import { committesData } from '../schemas/committeData';

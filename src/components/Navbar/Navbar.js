@@ -2,8 +2,8 @@ import { ReactComponent as CaretIcon } from '../icons/caret.svg';
 
 import { useState } from 'react';
 
-import { committesData } from '../schemas/committeData';
-import { infoData } from '../schemas/infoData';
+import { committesData } from '../../schemas/committeData';
+import { infoData } from '../../schemas/infoData';
 
 import styles from './Navbar.module.css';
 

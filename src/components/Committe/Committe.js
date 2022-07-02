@@ -1,4 +1,4 @@
-import { LinkButton } from './Buttons';
+import LinkButton from '../LinkButton';
 import styles from './Committe.module.css';
 
 
