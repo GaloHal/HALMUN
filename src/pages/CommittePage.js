@@ -31,7 +31,7 @@ function CommittePage() {
                 <LinkButton to={infoData['registration-link']}>Register</LinkButton>
             </Header>
             <main>
-                <div className={styles['chair-content'] + ' content'}>
+                <div className={`${styles['chair-content']} content`}>
 
                     <div className={styles['chair-image']}>
                         <img src={committe['chair-image']} alt={committe['chair-name']} />

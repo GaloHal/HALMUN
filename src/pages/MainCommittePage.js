@@ -7,6 +7,9 @@ import Footer from '../components/Footer';
 import { committesData } from '../schemas/committeData';
 import { infoData } from '../schemas/infoData';
 
+import styles from './MainCommittePage.module.css';
+import './Page.css';
+
 function MainCommittePage() {
     return (
         <>
@@ -24,15 +27,15 @@ function MainCommittePage() {
 			</Header>
 
             <main>
-           		<div className='committe-content content'>
+           		<div className={`${styles['committe-content']} content`}>
 					<Title
 						text='Committes'
 						textSize='h2'
 					/>
-					<ul className='committes-grid'>
+					<ul className={styles['committes-grid']}>
 						{committesData.map((data, key) => {
 							return (
-								<li className='committe-grid-item'>
+								<li className={styles['committe-grid-item']}>
 									<Committe
 										imgSrc={data['image']}
 										link={`../committes/${data['id']}`}

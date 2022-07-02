@@ -1,0 +1,16 @@
+.date-info-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.date-list {
+    padding: 0;
+    margin: 0;
+}
+.date-item {
+    list-style: '— ';
+}

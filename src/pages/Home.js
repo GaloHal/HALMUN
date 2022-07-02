@@ -3,8 +3,10 @@ import Header from '../components/Header';
 import Title from '../components/Title';
 import { LinkButton } from '../components/Buttons';
 
-import '../App.css';
 import { infoData } from '../schemas/infoData';
+
+import styles from './Home.module.css';
+import './Page.css';
 
 function Home() {
     return (
@@ -27,16 +29,16 @@ function Home() {
             </Header>
 
 			<main>
-                <div class='date-info-content content'>
+                <div class={`${styles['date-info-content']} content`}>
                     <Title
                         text='Future Conference Dates'
                         textSize='h2'
                     />
 
-                    <ul className='date-list'>
+                    <ul className={styles['date-list']}>
                         {infoData['conference-dates'].map((data, key) => {
                             return (
-                                <li className='date-item'>
+                                <li className={styles['date-item']}>
                                     <span className='p'>{data['date']}</span>
                                 </li>
                             );
