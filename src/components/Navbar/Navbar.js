@@ -1,4 +1,4 @@
-import { ReactComponent as CaretIcon } from '../icons/caret.svg';
+import { ReactComponent as CaretIcon } from '../../icons/caret.svg';
 
 import { useState } from 'react';
 
