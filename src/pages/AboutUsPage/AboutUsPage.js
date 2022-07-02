@@ -1,8 +1,11 @@
 import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 import Title from '../../components/Title';
 import LinkButton from '../../components/LinkButton';
+import Profile from '../../components/Profile';
 
 import { infoData } from '../../schemas/infoData';
+import { profileData } from '../../schemas/ProfileData';
 
 import styles from './AboutUsPage.module.css';
 
@@ -28,26 +31,42 @@ function AboutUsPage() {
             <main>
                 <div className='content content--middle'>
                     <Title
-                        text='Meet the Secretariat'
-                        textSize='h2'/>
+                        text='The Secretariat'
+                        textSize='h2'
+                    />
+
+                    <div>
+                        <Profile
+                            imageSrc={profileData[0]['imageSrc']}
+                            position={profileData[0]['position']}
+                            name={profileData[0]['name']}
+                            description={profileData[0]['description']}
+                        />
+                    </div>
+
+                    <ul className={styles['profiles-grid-layout']}>
+                        {
+                            profileData.map((data, key) => {
+                                if (key == 0) return (null);
+
+                                return (
+                                    <li className={styles['profile-item']}>
+                                        <Profile
+                                            imageSrc={data['imageSrc']}
+                                            position={data['position']}
+                                            name={data['name']}
+                                            description={data['description']}
+                                        />
+                                    </li>
+                                );
+                            })
+                        }
+                    </ul>
                 </div>
 
-                <ul className={styles['about-us-grid']}>
-                    <li className={styles['about-us__item']}>
-                        <div className={styles['about-us__item-container']}>
-                            <img src='/images/about-us/about-us-1.jpg' alt='about-us-1'/>
-                            <div className={styles['about-us__item-content']}>
-                                <span className='h2'>HALMUN Secretariat</span>
-                                <span className='p'>
-                                    The HALMUN Secretariat is the main contact point for all inquiries regarding the conference.
-                                    The Secretariat is responsible for the planning and coordination of the conference,
-                                    as well as the coordination of all other activities.
-                                </span>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
             </main>
+
+            <Footer />
         </>
     );
 }

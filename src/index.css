@@ -23,7 +23,21 @@
 	font-family: 'Garamond';
 	src: url(./fonts/Garamond/EBGaramond-Regular.ttf) format('truetype');
 }
-
+@font-face {
+	font-family: 'Futura';
+	font-weight: normal;
+	src: url(./fonts/Futura/FuturaPT-Medium.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Futura';
+	font-weight: light;
+	src: url(./fonts/Futura/FuturaPT-Light.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Futura';
+	font-weight: bold;
+	src: url(./fonts/Futura/FuturaPT-Demi.ttf) format('truetype');
+}
 
 :root {
 	--primary-color: #DB1278;
@@ -66,13 +80,30 @@ body {
 	color: var(--black);
 }
 
+.h3 {
+	font-family: Lora;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 41px;
+
+	color: var(--black);
+}
+
+
 .p {
-	font-family: Open Sans;
+	font-family: Open sans;
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 22px;
 
 	color: inherit;
+
+    white-space: pre-line;
+}
+
+.lrg {
+	font-size: 18px;
 }
 
 .right {

@@ -31,7 +31,7 @@ header {
 .header-content--left {
     width: fit-content;
 
-    margin: 0 3rem;
+    margin: 0 10rem;
 
     align-items: flex-start;
     justify-content: center;
