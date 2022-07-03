@@ -29,7 +29,7 @@ export const comittesData = [
         "id": "ecofin",
         "image": "/images/ecofin.jpeg",
         "short-description": "The Economic and Financial Affairs Council (ECOFIN) is responsible for EU policy in three main areas: economic policy, taxation  issues and the regulation of financial services.",
-        "detailed-description": "",
+        "detailed-description": "The United Nations General Assembly Second Committee, also known as the Economic and Financial Committee is one of the six main committees of the United Nations General Assembly. It deals with global finance and economic matters. The Second Committee meets every year in early October and aims to solve world issues.",
 
         // "chair": "selin-chetinelli",
         'chair': 'anuar-kul-mukhammed',
