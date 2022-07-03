@@ -2,7 +2,7 @@ import { ReactComponent as CaretIcon } from '../../icons/caret.svg';
 
 import { useState } from 'react';
 
-import { committesData } from '../../schemas/committeData';
+import { comittesData } from '../../schemas/comitteData';
 import { infoData } from '../../schemas/infoData';
 
 import styles from './Navbar.module.css';
@@ -78,16 +78,16 @@ function Navbar() {
                 <NavItem path={infoData['registration-link']} text='Registration'/>
                 
                 <NavItem 
-                    path='../committes' 
-                    text='Committes' 
+                    path='../comittes' 
+                    text='Comittes' 
                     icon={<CaretIcon />} 
                     isDropDown={true}
                 >
                     <DropDownMenu>
-                        {committesData.map(committe => {
+                        {comittesData.map(committe => {
                             return (
                                 <DropDownItem 
-                                    path={'../committes/' + committe.id}
+                                    path={'../comittes/' + committe.id}
                                     text={committe.name} 
                                 />
                             );

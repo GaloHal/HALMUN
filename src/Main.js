@@ -1,8 +1,8 @@
 import {Route, Routes} from 'react-router-dom';
 
 import HomePage from './pages/HomePage';
-import CommittesPage from './pages/CommittesPage';
-import DetailCommittePage from './pages/DetailCommittePage';
+import ComittesPage from './pages/ComittesPage';
+import DetailComittePage from './pages/DetailComittePage';
 import InformationPage from './pages/InformationPage';
 import AboutUsPage from './pages/AboutUsPage';
 
@@ -15,8 +15,8 @@ function Main() {
             
             <Route exact path='/news-and-updates' element={<HomePage />} />
             
-            <Route exact path='/committes' element={<CommittesPage />} />
-            <Route exact path='/committes/:id' element={<DetailCommittePage />} />
+            <Route exact path='/comittes' element={<ComittesPage />} />
+            <Route exact path='/comittes/:id' element={<DetailComittePage />} />
         </Routes>
     );
 }

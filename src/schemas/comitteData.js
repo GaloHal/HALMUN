@@ -1,4 +1,4 @@
-export const committesData = [
+export const comittesData = [
     {
         "name": "UNSC",
         "full-name": "United Nations Security Council",

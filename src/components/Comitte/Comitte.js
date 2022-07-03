@@ -1,8 +1,8 @@
 import LinkButton from '../LinkButton';
-import styles from './Committe.module.css';
+import styles from './Comitte.module.css';
 
 
-function Committe(props) {
+function Comitte(props) {
     return (
         <div className={styles['committe-container']}>
             <img src={props.imgSrc} alt={props.title}/>
@@ -22,4 +22,4 @@ function Committe(props) {
     );
 }
 
-export default Committe;
+export default Comitte;

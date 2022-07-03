@@ -6,18 +6,18 @@ import Title from '../../components/Title';
 import LinkButton from '../../components/LinkButton';
 import Profile from '../../components/Profile';
 
-import { committesData } from '../../schemas/committeData';
+import { comittesData } from '../../schemas/comitteData';
 import { infoData } from '../../schemas/infoData';
 import { profileData } from '../../schemas/ProfileData';
 
-import styles from './DetailCommittePage.module.css';
+import styles from './DetailComittePage.module.css';
 import styles2 from '../AboutUsPage/AboutUsPage.module.css';
 import '../Page.css';
 
-function DetailCommittePage() {
+function DetailComittePage() {
     const { id } = useParams();
 
-    const committe = committesData.find(data => data['id'] === id);
+    const committe = comittesData.find(data => data['id'] === id);
 
     return (
         <>
@@ -68,4 +68,4 @@ function DetailCommittePage() {
     );
 }
 
-export default DetailCommittePage;
+export default DetailComittePage;
