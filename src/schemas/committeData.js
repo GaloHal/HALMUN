@@ -5,7 +5,11 @@ export const committesData = [
         "id": "unsc",
         "image": "/images/unsc.jpeg",
         "short-description": "The United Nations Security Council (UNSC) focuses on peace making and security, as well as the safety of all nations.",
-        "detailed-description": "In this committee delegates will work to maintain international peace and security, to develop friendly relations among the nations, to collaborate in promoting respect for human rights and in solving international issues, and to be a centre for harmonizing the actions of nations. To keep or restore international peace and safety, the Security Council may impose sanctions or even approve the use of force.",
+        "detailed-description": "The United Nations Security Council (UNSC) is one of the six principal organs of the United Nations (UN) and is charged with ensuring international peace and security, recommending the admission of new UN members to the General Assembly, and approving any changes to the UN Charter. Its powers include establishing peacekeeping operations, enacting international sanctions, and authorizing military action. The UNSC is the only UN body with the authority to issue binding resolutions on member states.",
+        
+        // "chair": "iskander-kessikbaev",
+        'chair': 'anuar-kul-mukhammed',
+        "vice-chair": "ruihan-chu"
     },
     {
         "name": "UNHCR",
@@ -14,6 +18,10 @@ export const committesData = [
         "image": "/images/unhcr.jpeg",
         "short-description": "The United Nations Human Rights Council (UNHRC) is responsible for the protection and promotion of all human rights globally.",
         "detailed-description": "The Council meets at the UN Office at Geneva, and there, delegates explore allegations of breaches of human rights in the United Nations member states, and address thematic human rights issues, for instance, freedom of association and assembly, freedom of expression, freedom of belief and religion, women’s rights, LGBT+ rights, and the rights of racial and ethnic minorities. In this committee delegates will discuss complex problems, and cooperate to come up with the most considered and well thought solution in the form of resolutions.",
+        
+        // "chair": "alikseniia-martysheva",
+        'chair': 'anuar-kul-mukhammed',
+        "vice-chair": "tomiris-kamitova"
     },
     {
         "name": "ECOFIN",
@@ -22,5 +30,9 @@ export const committesData = [
         "image": "/images/ecofin.jpeg",
         "short-description": "The Economic and Financial Affairs Council (ECOFIN) is responsible for EU policy in three main areas: economic policy, taxation  issues and the regulation of financial services.",
         "detailed-description": "",
+
+        // "chair": "selin-chetinelli",
+        'chair': 'anuar-kul-mukhammed',
+        "vice-chair": "ulpan-nurdilda"
     }
 ]

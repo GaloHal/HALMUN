@@ -10,8 +10,6 @@ import { profileData } from '../../schemas/ProfileData';
 import styles from './AboutUsPage.module.css';
 
 function AboutUsPage() {
-
-    console.log("helo?")
     return (
         <>
              <Header
@@ -25,9 +23,7 @@ function AboutUsPage() {
                 desc='HALMUN is a free online Model United Nations conference that is organised by the Haileybury Almaty school. ​ 
                 Now is the time for youth to find their voice in the world and HALMUN provides just that opportunity. Enhance your public speaking skills, master the power of teamwork and meet people from all over the world.
                 HALMUN 2022 is the second iteration of the conference, this time consisting of 3 committees: the United Nations Security Council (UNSC), the United Nations High Commissioner for Refugees (UNHCR), and the Economic and Financial Committee (ECOFIN).'
-            >
-                <LinkButton to={infoData['registration-link']}>Register Here</LinkButton>
-            </Header>
+            />
             <main>
                 <div className='content content--middle'>
                     <Title
@@ -35,20 +31,40 @@ function AboutUsPage() {
                         textSize='h2'
                     />
 
-                    <div>
-                        <Profile
-                            imageSrc={profileData[0]['imageSrc']}
-                            position={profileData[0]['position']}
-                            name={profileData[0]['name']}
-                            description={profileData[0]['description']}
-                        />
-                    </div>
+                    <Profile
+                        imageSrc={profileData['secretariat'][0]['imageSrc']}
+                        position={profileData['secretariat'][0]['position']}
+                        name={profileData['secretariat'][0]['name']}
+                        description={profileData['secretariat'][0]['description']}
+                    />
 
                     <ul className={styles['profiles-grid-layout']}>
                         {
-                            profileData.map((data, key) => {
+                            profileData['secretariat'].map((data, key) => {
                                 if (key == 0) return (null);
 
+                                return (
+                                    <li className={styles['profile-item']}>
+                                        <Profile
+                                            imageSrc={data['imageSrc']}
+                                            position={data['position']}
+                                            name={data['name']}
+                                            description={data['description']}
+                                        />
+                                    </li>
+                                );
+                            })
+                        }
+                    </ul>
+
+                    <Title
+                        text='Chairs'
+                        textSize='h2'
+                    />
+
+                    <ul className={styles['profiles-grid-layout']}>
+                        {
+                            profileData['chairs'].map((data, key) => {
                                 return (
                                     <li className={styles['profile-item']}>
                                         <Profile

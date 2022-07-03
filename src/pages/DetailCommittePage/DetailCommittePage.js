@@ -4,11 +4,14 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Title from '../../components/Title';
 import LinkButton from '../../components/LinkButton';
+import Profile from '../../components/Profile';
 
 import { committesData } from '../../schemas/committeData';
 import { infoData } from '../../schemas/infoData';
+import { profileData } from '../../schemas/ProfileData';
 
 import styles from './DetailCommittePage.module.css';
+import styles2 from '../AboutUsPage/AboutUsPage.module.css';
 import '../Page.css';
 
 function DetailCommittePage() {
@@ -27,12 +30,37 @@ function DetailCommittePage() {
                         desc={committe['short-description']}
                     />
                 }
+                desc={committe['detailed-description']}
             >
-                <LinkButton to={infoData['registration-link']}>Register Here</LinkButton>
             </Header>
             
             <main>
-                
+                <div className='content content--middle'>
+                    <Title
+                        text='Chairs'
+                        textSize='h2'
+                    />
+
+                    <ul className={styles2['profiles-grid-layout']}>
+                        {
+                            profileData['chairs'].map((data, _key) => {
+                                if (data['nid'] != committe['chair'] && data['nid'] != committe['vice-chair'])
+                                    return (null);
+
+                                return (
+                                    <li className={styles2['profile-item']}>
+                                        <Profile
+                                            imageSrc={data['imageSrc']}
+                                            position={data['position']}
+                                            name={data['name']}
+                                            description={data['description']}
+                                        />
+                                    </li>
+                                );
+                            })
+                        }
+                    </ul>
+                </div>
             </main>
 
             <Footer/>
