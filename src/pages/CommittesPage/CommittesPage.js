@@ -1,16 +1,16 @@
 import Header from '../../components/Header';
 import Title from '../../components/Title';
-import Comitte from '../../components/Comitte';
+import Committe from '../../components/Committe';
 import LinkButton from '../../components/LinkButton';
 import Footer from '../../components/Footer';
 
-import { comittesData } from '../../schemas/comitteData';
+import { committesData } from '../../schemas/committeData';
 import { infoData } from '../../schemas/infoData';
 
-import styles from './ComittesPage.module.css';
+import styles from './CommittesPage.module.css';
 import '../Page.css';
 
-function ComittesPage() {
+function CommittesPage() {
     return (
         <>
             <Header
@@ -34,10 +34,10 @@ function ComittesPage() {
 						textSize='h2'
 					/>
 					<ul className={styles['committes-grid']}>
-						{comittesData.map((data, key) => {
+						{committesData.map((data, key) => {
 							return (
 								<li className={styles['committe-grid-item']}>
-									<Comitte
+									<Committe
 										imgSrc={data['image']}
 										link={`../committes/${data['id']}`}
 										title={data['name']}
@@ -55,4 +55,4 @@ function ComittesPage() {
     );
 }
 
-export default ComittesPage;
+export default CommittesPage;

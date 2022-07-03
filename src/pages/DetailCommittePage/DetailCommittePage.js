@@ -6,18 +6,18 @@ import Title from '../../components/Title';
 import LinkButton from '../../components/LinkButton';
 import Profile from '../../components/Profile';
 
-import { comittesData } from '../../schemas/comitteData';
+import { committesData } from '../../schemas/committeData';
 import { infoData } from '../../schemas/infoData';
 import { profileData } from '../../schemas/ProfileData';
 
-import styles from './DetailComittePage.module.css';
+import styles from './DetailCommittePage.module.css';
 import styles2 from '../AboutUsPage/AboutUsPage.module.css';
 import '../Page.css';
 
 function DetailComittePage() {
     const { id } = useParams();
 
-    const committe = comittesData.find(data => data['id'] === id);
+    const committe = committesData.find(data => data['id'] === id);
 
     return (
         <>
@@ -54,6 +54,7 @@ function DetailComittePage() {
                                             position={data['position']}
                                             name={data['name']}
                                             description={data['description']}
+                                            mail={data['mail']}
                                         />
                                     </li>
                                 );

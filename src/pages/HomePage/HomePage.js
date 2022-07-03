@@ -17,7 +17,7 @@ function HomePage() {
 
                 title={
                     <Title 
-                    text='Welcome to HALMUN!'
+                    text='Welcome to Haileybury Almaty Model United Nations!'
                     desc='HALMUN is a free Model United Nations conference that is organised by the Haileybury Almaty school.'
                     />
                 }
@@ -37,6 +37,8 @@ function HomePage() {
                         <span className='p'>
                             {infoData['letter']}
                         </span>
+
+                        <img className={styles['letter-sign']} src='/images/letter-sign.webp'/>
 
                         <span className='p right'>Anuar Kul-Mukhammed</span>
                         <span className='p right'>Secretary-General</span>

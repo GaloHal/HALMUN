@@ -27,8 +27,14 @@
 
 	font-family: Garamond;
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 1.6em;
 	letter-spacing: .07em;
 	text-transform: none;
+}
+.letter-sign {
+    margin-left: auto;
+    margin-bottom: 1em;
+
+    height: 2rem;
 }

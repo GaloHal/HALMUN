@@ -4,7 +4,8 @@ function Profile({
     position,
     name,
     imageSrc,
-    description
+    description,
+    mail
 }) {
     return (
         <div className={styles['profile-container']}>
@@ -15,6 +16,11 @@ function Profile({
             <img src={imageSrc} alt={name}/>
 
             <span className='p'>{description}</span>
+
+            <span className='p italic'>
+                <b>Contact: </b> 
+                <a href={`mailto:${mail}`}>{mail}</a>
+            </span>
         </div>
     );
 }

@@ -2,7 +2,7 @@ import { ReactComponent as CaretIcon } from '../../icons/caret.svg';
 
 import { useState } from 'react';
 
-import { comittesData } from '../../schemas/comitteData';
+import { committesData } from '../../schemas/committeData';
 import { infoData } from '../../schemas/infoData';
 
 import styles from './Navbar.module.css';
@@ -60,14 +60,15 @@ function Navbar() {
                 <NavItem path='../' text='Home' />
                 
                 <NavItem 
-                    path='../information' 
+                    path='../resources' 
                     text='About' 
                     icon={<CaretIcon />} 
                     isDropDown={true}
                 >
                     <DropDownMenu>
-                        <DropDownItem path='../information' text='Information'/>
-                        <DropDownItem path='../about-us' text='Secretariat'/>
+                        <DropDownItem path='../resources' text='Resources'/>
+                        <DropDownItem path='../about-us' text='Staff'/>
+                        <DropDownItem path='../sponsors' text='Sponsors'/>
                     </DropDownMenu>
                 </NavItem>
 
@@ -78,16 +79,16 @@ function Navbar() {
                 <NavItem path={infoData['registration-link']} text='Registration'/>
                 
                 <NavItem 
-                    path='../comittes' 
-                    text='Comittes' 
+                    path='../committes' 
+                    text='Committes' 
                     icon={<CaretIcon />} 
                     isDropDown={true}
                 >
                     <DropDownMenu>
-                        {comittesData.map(committe => {
+                        {committesData.map(committe => {
                             return (
                                 <DropDownItem 
-                                    path={'../comittes/' + committe.id}
+                                    path={'../committes/' + committe.id}
                                     text={committe.name} 
                                 />
                             );

@@ -1,5 +1,5 @@
 import LinkButton from '../LinkButton';
-import styles from './Comitte.module.css';
+import styles from './Committe.module.css';
 
 
 function Comitte(props) {

@@ -36,6 +36,7 @@ function AboutUsPage() {
                         position={profileData['secretariat'][0]['position']}
                         name={profileData['secretariat'][0]['name']}
                         description={profileData['secretariat'][0]['description']}
+                        mail={profileData['secretariat'][0]['mail']}
                     />
 
                     <ul className={styles['profiles-grid-layout']}>
@@ -50,6 +51,7 @@ function AboutUsPage() {
                                             position={data['position']}
                                             name={data['name']}
                                             description={data['description']}
+                                            mail={data['mail']}
                                         />
                                     </li>
                                 );
@@ -58,7 +60,7 @@ function AboutUsPage() {
                     </ul>
 
                     <Title
-                        text='Chairs'
+                        text='The Dias'
                         textSize='h2'
                     />
 
@@ -72,6 +74,7 @@ function AboutUsPage() {
                                             position={data['position']}
                                             name={data['name']}
                                             description={data['description']}
+                                            mail={data['mail']}
                                         />
                                     </li>
                                 );
