@@ -9,6 +9,13 @@ export const profileData = {
             'mail': 'anuarkulmukhammed@gmail.com'
         },
         {
+            'imageSrc': '/images/team/alinur-HALMUN.jpeg',
+            'nid': 'alinur-',
+            'name': 'Alinur ',
+            'position': '',
+            'description': '',
+        },
+        {
             'imageSrc': '/images/team/dana-HALMUN.jpeg',
             'nid': 'dana-skorokhodova',
             'name': 'Dana Skorokhodova',
@@ -43,11 +50,18 @@ export const profileData = {
             'mail': '11CHuR@haileyburyalmaty.kz'
         },
         {
+            'imageSrc': '/images/team/alikseniia-HALMUN.jpeg',
+            'nid': 'alikseniia-martysheva',
+            'name': 'Alikseniia Martysheva',
+            'position': 'Chair',
+            'description': ''
+        },
+        {
             'imageSrc': '/images/team/tomiris-HALMUN.jpeg',
             'nid': 'tomiris-kamitova',
             'name': 'Tomiris Kamitova',
             'position': 'Vice Chair',
             'description': 'Tomiris is happy to be administering as Vice-Chair for ECOFIN in the new HALMUN. She studies in Haileybury Almaty, in year 12. Tomiris want to pursue her future career in politics and law. As for hobbies, she likes to read a lot of classic books as well as draw in her free time. Tomiris and the team for HALMUN are thrilled to welcome all of you and are looking forward to meeting all of the delegates.'
-        }
+        },
     ]
 }
