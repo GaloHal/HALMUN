@@ -18,7 +18,7 @@ function HomePage() {
 
                 title={
                     <Title 
-                    text='Welcome to Haileybury Almaty Model United Nations!'
+                    text='Welcome to HALMUN!'
                     desc='HALMUN is a free Model United Nations conference that is organised by the Haileybury Almaty school.'
                     />
                 }

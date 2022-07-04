@@ -1,12 +1,12 @@
 export const sponsorsData = [
     {
-        'src': '/images/sponsors/gybn.webp',
+        'src': '/images/sponsors/gybn.jpeg',
         'nid': 'gybn',
         'name': 'Global Youth Biodiversity Network Kazakhstan Chapter'
     },
     {
-        'src': '/images/sponsors/unhcr.png',
-        'nid': 'unhcr',
-        'name': 'UNHCR'
+        'src': '/images/sponsors/jaqsylq.jpeg',
+        'nid': 'jaqsylq',
+        'name': 'Jaqsylq Charity'
     }
 ]

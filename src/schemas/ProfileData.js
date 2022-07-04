@@ -12,7 +12,7 @@ export const profileData = {
             'imageSrc': '/images/team/dana-HALMUN.jpeg',
             'nid': 'dana-skorokhodova',
             'name': 'Dana Skorokhodova',
-            'position': 'Marketing Director',
+            'position': 'Director of Marketing',
             'description': 'Dana is very excited to join the HALMUN Team as the Marketing Director. She is a year 13 at the Haileybury Almaty sixth form, who is going to be majoring in media or finances in college. In her free time, she loves to read and spend time with her friends, sometimes doing it on different volunteering projects. Dana is super excited to welcome you to HALMUN 2022 and feel free to reach out to her.',
             'mail': 'dd.skorokhodova@gmail.com'
         },
