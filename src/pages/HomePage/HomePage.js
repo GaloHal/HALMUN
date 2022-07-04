@@ -1,3 +1,5 @@
+import { useEffect } from 'react';
+
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Title from '../../components/Title';
@@ -9,7 +11,9 @@ import { sponsorsData } from '../../schemas/sponsorsData';
 import styles from './HomePage.module.css';
 import '../Page.css';
 
-function HomePage() {
+function HomePage(props) {
+    useEffect(() => {document.title = props.title || "" })
+    
     return (
         <>
             <Header

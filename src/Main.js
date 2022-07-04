@@ -10,15 +10,13 @@ import AboutUsPage from './pages/AboutUsPage';
 function Main() {
     return (
         <Routes>
-            <Route exact path='/' element={<HomePage />} />
-            <Route exact path='/about-us' element={<AboutUsPage />} />
-            <Route exact path='/resources' element={<ResourcesPage />} />
-            <Route exact path='/sponsors' element={<SponsorsPage />} />
+            <Route exact path='/' element={<HomePage title='Home — HALMUN' />} />
+            <Route exact path='/about-us' element={<AboutUsPage title='About Us — HALMUN' />} />
+            <Route exact path='/resources' element={<ResourcesPage title='Resources — HALMUN' />} />
+            <Route exact path='/sponsors' element={<SponsorsPage title='Sponsors — HALMUN' />} />
 
-            <Route exact path='/news-and-updates' element={<HomePage />} />
-            
-            <Route exact path='/committes' element={<CommittesPage />} />
-            <Route exact path='/committes/:id' element={<DetailCommittePage />} />
+            <Route exact path='/committes' element={<CommittesPage title='Committees — HALMUN' />} />
+            <Route exact path='/committes/:id' element={<DetailCommittePage title='{id} — HALMUN' />} />
         </Routes>
     );
 }

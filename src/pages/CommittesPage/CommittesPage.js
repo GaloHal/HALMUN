@@ -1,3 +1,5 @@
+import { useEffect } from 'react';
+
 import Header from '../../components/Header';
 import Title from '../../components/Title';
 import Committe from '../../components/Committe';
@@ -10,7 +12,9 @@ import { infoData } from '../../schemas/infoData';
 import styles from './CommittesPage.module.css';
 import '../Page.css';
 
-function CommittesPage() {
+function CommittesPage(props) {
+    useEffect(() => {document.title = props.title || "" })
+
     return (
         <>
             <Header

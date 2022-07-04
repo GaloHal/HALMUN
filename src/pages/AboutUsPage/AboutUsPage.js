@@ -1,3 +1,5 @@
+import { useEffect } from 'react';
+
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Title from '../../components/Title';
@@ -9,7 +11,9 @@ import { profileData } from '../../schemas/ProfileData';
 
 import styles from './AboutUsPage.module.css';
 
-function AboutUsPage() {
+function AboutUsPage(props) {
+    useEffect(() => {document.title = props.title || "" })
+
     return (
         <>
              <Header

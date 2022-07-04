@@ -1,3 +1,5 @@
+import { useEffect } from 'react';
+
 import styles from './SponsorsPage.module.css';
 
 import Header from "../../components/Header";
@@ -6,7 +8,9 @@ import Title from '../../components/Title';
 
 import { sponsorsData } from '../../schemas/sponsorsData';
 
-function SponsorsPage() {
+function SponsorsPage(props) {
+    useEffect(() => {document.title = props.title || "" })
+
     return (
         <>
             <Header

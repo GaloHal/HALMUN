@@ -1,4 +1,5 @@
 import { useParams } from 'react-router-dom';
+import { useEffect } from 'react';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
@@ -14,10 +15,12 @@ import { profileData } from '../../schemas/ProfileData';
 import styles2 from '../AboutUsPage/AboutUsPage.module.css';
 import '../Page.css';
 
-function DetailComittePage() {
+function DetailComittePage(props) {
     const { id } = useParams();
-
     const committe = committesData.find(data => data['id'] === id);
+
+    useEffect(() => {document.title = props.title.replace("{id}", committe['name']) || "" })
+
 
     return (
         <>
