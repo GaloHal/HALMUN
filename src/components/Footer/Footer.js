@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
@@ -17,17 +18,28 @@ function Footer() {
         );
     }
 
-    function PageLink(props) {
+    function PageLink({
+        path,
+        textStyle,
+        isExternalPath=false,
+        children
+    }) {
         return (
             <li className={styles['list-item']}>
                 {
-                    props.to ? (
-                        <a href={props.to} target='_blank' rel="noreferrer" className={props.textStyle}>
-                            {props.children}
-                        </a>
+                    path ? (
+                        isExternalPath ? (
+                            <a href={path} target='_blank' rel="noreferrer" className={textStyle}>
+                                {children}
+                            </a>
+                        ):(
+                            <Link to={path} className={textStyle}>
+                                {children}
+                            </Link>              
+                        )
                     ):(
-                        <span className={props.textStyle}>
-                            {props.children}
+                        <span className={textStyle}>
+                            {children}
                         </span>
                     )
                 }
@@ -51,16 +63,16 @@ function Footer() {
         <footer>
             <div className={styles['footer-content']}>
                 <List title='Quick Links'>
-                    <PageLink to='/' textStyle='p'>Home</PageLink>
-                    <PageLink to='../resources' textStyle='p'>Resources</PageLink>
-                    <PageLink to='../about-us' textStyle='p'>Staff</PageLink>
-                    <PageLink to='../sponsors' textStyle='p'>Sponsors</PageLink>
-                    <PageLink to={infoData['registration-link']} textStyle='p'>Registration</PageLink>
-                    <PageLink to='../committes' textStyle='p'>Committes</PageLink>
+                    <PageLink path='/' textStyle='p'>Home</PageLink>
+                    <PageLink path='../resources' textStyle='p'>Resources</PageLink>
+                    <PageLink path='../about-us' textStyle='p'>Staff</PageLink>
+                    <PageLink path='../sponsors' textStyle='p'>Sponsors</PageLink>
+                    <PageLink path={infoData['registration-link']} isExternalPath={true} textStyle='p'>Registration</PageLink>
+                    <PageLink path='../committes' textStyle='p'>Committes</PageLink>
                 </List>
 
                 <List title='Contact Us'>
-                    <PageLink to='mailto:halmunstaff@gmail.com'>
+                    <PageLink to='mailto:halmunstaff@gmail.com' isExternalPath={true}>
                         <b>Email:</b><br/>
                         halmunstaff@gmail.com
                     </PageLink>

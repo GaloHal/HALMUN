@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { ReactComponent as CaretIcon } from '../../icons/caret.svg';
 
 import { useState } from 'react';
@@ -12,6 +13,7 @@ function NavItem({
     text,
     children,
     icon=<></>,
+    isExternalPath=false,
     isDropDown=false,
     className = 'nav-item',
 }) {
@@ -26,7 +28,13 @@ function NavItem({
             {
                 text ? (
                     <div className={styles['nav-item-content']}>    
-                        <a href={path} className='p'>{text}</a>
+                        {
+                            isExternalPath ? (        
+                                <a href={path} className='p'>{text}</a>
+                            ) : (
+                                <Link to={path} className='p'>{text}</Link>
+                            )
+                        }
                         {icon}
                     </div>
                 ) : null
@@ -37,10 +45,20 @@ function NavItem({
     );
 }
 
-function DropDownItem(props) {
+function DropDownItem({
+    path,
+    text,
+    isExternalPath=false,
+}) {
     return (
         <li className={styles['menu-item']}>
-            <a href={props.path} className='p'>{props.text}</a>
+            {
+                isExternalPath ? (        
+                    <a href={path} className='p'>{text}</a>
+                ) : (
+                    <Link to={path} className='p'>{text}</Link>
+                )
+            }
         </li>
     );
 }
@@ -76,7 +94,7 @@ function Navbar() {
                     <img src='/images/logo.png' alt='logo'/>
                 </NavItem>
                 
-                <NavItem path={infoData['registration-link']} text='Registration'/>
+                <NavItem path={infoData['registration-link']} isExternalPath={true} text='Registration'/>
                 
                 <NavItem 
                     path='../committes' 

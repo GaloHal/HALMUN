@@ -4,6 +4,7 @@ import Title from '../../components/Title';
 import LinkButton from '../../components/LinkButton';
 
 import { infoData } from '../../schemas/infoData';
+import { sponsorsData } from '../../schemas/sponsorsData';
 
 import styles from './HomePage.module.css';
 import '../Page.css';
@@ -45,6 +46,25 @@ function HomePage() {
                         <span className='p right'>Haileybury Almaty Model United Nations</span>
                         <span className='p right'>halmunstaff@gmail.com</span>
                     </div>
+                </div>
+
+                <div className='content content--middle'>
+                    <Title 
+                        text='Sponsors'
+                        textSize='h2'
+                    />
+
+                    <ul className='sponsor-grid'>
+                        {
+                            sponsorsData.map((data, _key) => {
+                                return (
+                                    <li className='sponsor-item'>
+                                        <img src={data['src']} alt={data['name']} />
+                                    </li>
+                                )
+                            })
+                        }
+                    </ul>
                 </div>
 			</main>
 

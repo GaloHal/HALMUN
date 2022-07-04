@@ -23,11 +23,11 @@ function SponsorsPage() {
                         textSize='h2'
                     />
 
-                    <ul className={styles['sponsor-grid']}>
+                    <ul className='sponsor-grid'>
                         {
                             sponsorsData.map((data, _key) => {
                                 return (
-                                    <li className={styles['sponsor-item']}>
+                                    <li className='sponsor-item'>
                                         <img src={data['src']} alt={data['name']} />
                                     </li>
                                 )
