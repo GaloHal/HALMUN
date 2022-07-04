@@ -5,13 +5,13 @@ export const profileData = {
             'nid': 'anuar-kul-mukhammed',
             'name': 'Anuar Kul-Mukhammed',
             'position': 'Secretary-General',
-            'description': 'Anuar is incredibly excited to be serving as the Secretary-General of HALMUN in its 2nd iteration. He is a year 13 at the Haileybury Almaty sixth form and plans to study finances and political science in college. In his free time, you might find him practicing in the swimming pool, listening to Kanye West, or reading up on the current state of world affairs. Anuar is excited to welcome you to HALMUN 2022, do not hesitate to reach him out.',
+            'description': 'Anuar is incredibly excited to be serving as the Secretary-General of HALMUN in its 2nd iteration. He is a year 13 at the Haileybury Almaty sixth form and plans to study finances and political science in college. In his free time, you might find him practicing in the swimming pool, listening to Kanye West, or reading up on the current state of world affairs. Anuar is excited to welcome you to HALMUN 2022, do not hesitate to reach out to him.',
             'mail': 'anuarkulmukhammed@gmail.com'
         },
         {
             'imageSrc': '/images/team/alinur-HALMUN.jpeg',
-            'nid': 'alinur-',
-            'name': 'Alinur ',
+            'nid': 'alinur-sayat',
+            'name': 'Alinur Sayat',
             'position': '',
             'description': '',
         },
@@ -46,7 +46,7 @@ export const profileData = {
             'nid': 'ruihan-chu',
             'name': 'Ruihan Chu',
             'position': 'Vice Chair',
-            'description': 'Ruihan is  very honored to be serving as the co-chair of the UNSC committee. She is a year 12 student in Haileybury Almaty, who is interested in STEM and Music. You will find her playing piano and painting landscapes and portraits during her free time. Ruihan welcomes you all to the 2nd HALMUN 2022. Feel free to reach out to her.',
+            'description': 'Ruihan is  very honored to be serving as the vice chair of the UNSC committee. She is a year 12 student in Haileybury Almaty, who is interested in STEM and Music. You will find her playing piano and painting landscapes and portraits during her free time. Ruihan welcomes you all to the 2nd HALMUN 2022. Feel free to reach out to her.',
             'mail': '11CHuR@haileyburyalmaty.kz'
         },
         {
@@ -63,5 +63,12 @@ export const profileData = {
             'position': 'Vice Chair',
             'description': 'Tomiris is happy to be administering as Vice-Chair for ECOFIN in the new HALMUN. She studies in Haileybury Almaty, in year 12. Tomiris want to pursue her future career in politics and law. As for hobbies, she likes to read a lot of classic books as well as draw in her free time. Tomiris and the team for HALMUN are thrilled to welcome all of you and are looking forward to meeting all of the delegates.'
         },
+        {
+            'imageSrc': '/images/team/selin-HALMUN.jpeg',
+            'nid': 'selin-chetinelli',
+            'name': 'Selin Chetinelli',
+            'position': 'Chair',
+            'description': ''
+        }
     ]
 }

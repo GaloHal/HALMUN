@@ -84,8 +84,8 @@ function Navbar() {
                     isDropDown={true}
                 >
                     <DropDownMenu>
-                        <DropDownItem path='../resources' text='Resources'/>
                         <DropDownItem path='../about-us' text='Staff'/>
+                        <DropDownItem path='../resources' text='Resources'/>
                         <DropDownItem path='../sponsors' text='Sponsors'/>
                     </DropDownMenu>
                 </NavItem>
@@ -98,7 +98,7 @@ function Navbar() {
                 
                 <NavItem 
                     path='../committes' 
-                    text='Committes' 
+                    text='Committees' 
                     icon={<CaretIcon />} 
                     isDropDown={true}
                 >
