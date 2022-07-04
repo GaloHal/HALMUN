@@ -22,7 +22,7 @@ function Footer() {
             <li className={styles['list-item']}>
                 {
                     props.to ? (
-                        <a href={props.to} className={props.textStyle}>
+                        <a href={props.to} target='_blank' rel="noreferrer" className={props.textStyle}>
                             {props.children}
                         </a>
                     ):(
@@ -90,7 +90,7 @@ function Footer() {
 
                 <span className='p ltl'>
                     Copyright @2022 | Website managed by 
-                    <a href='https://github.com/Hereugo' target='_blank'> Amir Nurmukhambetov</a>
+                    <a href='https://github.com/Hereugo' target='_blank' rel='noreferrer'> Amir Nurmukhambetov</a>
                 </span>
             </div>
 

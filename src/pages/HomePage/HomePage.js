@@ -38,7 +38,7 @@ function HomePage() {
                             {infoData['letter']}
                         </span>
 
-                        <img className={styles['letter-sign']} src='/images/letter-sign.webp'/>
+                        <img className={styles['letter-sign']} src='/images/letter-sign.webp' alt='Anuar Kul-Mukhammed'/>
 
                         <span className='p right'>Anuar Kul-Mukhammed</span>
                         <span className='p right'>Secretary-General</span>

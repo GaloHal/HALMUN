@@ -1,4 +1,4 @@
-import styles from './InformationPage.module.css';
+// import styles from './InformationPage.module.css';
 
 function InformationPage() {
     return (

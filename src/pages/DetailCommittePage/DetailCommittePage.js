@@ -3,14 +3,14 @@ import { useParams } from 'react-router-dom';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Title from '../../components/Title';
-import LinkButton from '../../components/LinkButton';
+// import LinkButton from '../../components/LinkButton';
 import Profile from '../../components/Profile';
 
 import { committesData } from '../../schemas/committeData';
-import { infoData } from '../../schemas/infoData';
+// import { infoData } from '../../schemas/infoData';
 import { profileData } from '../../schemas/ProfileData';
 
-import styles from './DetailCommittePage.module.css';
+// import styles from './DetailCommittePage.module.css';
 import styles2 from '../AboutUsPage/AboutUsPage.module.css';
 import '../Page.css';
 
@@ -44,7 +44,7 @@ function DetailComittePage() {
                     <ul className={styles2['profiles-grid-layout']}>
                         {
                             profileData['chairs'].map((data, _key) => {
-                                if (data['nid'] != committe['chair'] && data['nid'] != committe['vice-chair'])
+                                if (data['nid'] !== committe['chair'] && data['nid'] !== committe['vice-chair'])
                                     return (null);
 
                                 return (

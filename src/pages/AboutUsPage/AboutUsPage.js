@@ -42,7 +42,7 @@ function AboutUsPage() {
                     <ul className={styles['profiles-grid-layout']}>
                         {
                             profileData['secretariat'].map((data, key) => {
-                                if (key == 0) return (null);
+                                if (key === 0) return (null);
 
                                 return (
                                     <li className={styles['profile-item']}>
