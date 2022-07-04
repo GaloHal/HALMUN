@@ -43,9 +43,13 @@ footer a:hover {
     list-style: none;
 
     padding: 0.5rem 0;
-    margin: 0 0.5rem;
+    margin: 0 1rem;
 
     white-space: pre-line;   
+}
+.list-item a svg {
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .container {

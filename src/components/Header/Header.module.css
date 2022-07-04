@@ -9,7 +9,7 @@ header {
     height: 100%;
 }
 .header-content {
-    width: min-content;
+    width: fit-content;
     height: 100%;
 
     display: flex;
@@ -19,6 +19,8 @@ header {
     fill: currentColor;
 }
 .header-desc {
+    max-width: 50vw;
+    text-align: center;
     margin: 3rem 0;
 }
 
@@ -35,6 +37,9 @@ header {
 
     align-items: flex-start;
     justify-content: center;
+}
+.header-content--left .header-desc {
+    text-align: left;
 }
 
 .header-content :global(.title hr) {

@@ -2,6 +2,7 @@ import Header from '../../components/Header';
 import Title from '../../components/Title';
 import Committe from '../../components/Committe';
 import Footer from '../../components/Footer';
+import LinkButton from '../../components/LinkButton';
 
 import { committesData } from '../../schemas/committeData';
 import { infoData } from '../../schemas/infoData';

@@ -9,7 +9,7 @@ import { infoData } from '../../schemas/infoData';
 function Footer() {
     function SocialLink(props) {
         return (
-            <li className={`${styles['list-item']} ${styles['list-item--circle']}`}>
+            <li className={`${styles['list-item']}`}>
                 <a href={props.href} className={styles['social-link']}>
                     {props.children}
                 </a>
@@ -52,8 +52,9 @@ function Footer() {
             <div className={styles['footer-content']}>
                 <List title='Quick Links'>
                     <PageLink to='/' textStyle='p'>Home</PageLink>
-                    <PageLink to='../information' textStyle='p'>Information</PageLink>
-                    <PageLink to='../about-us' textStyle='p'>Secretariat</PageLink>
+                    <PageLink to='../resources' textStyle='p'>Resources</PageLink>
+                    <PageLink to='../about-us' textStyle='p'>Staff</PageLink>
+                    <PageLink to='../sponsors' textStyle='p'>Sponsors</PageLink>
                     <PageLink to={infoData['registration-link']} textStyle='p'>Registration</PageLink>
                     <PageLink to='../committes' textStyle='p'>Committes</PageLink>
                 </List>

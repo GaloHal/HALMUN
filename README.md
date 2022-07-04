@@ -1,6 +1,7 @@
 # HALMUN Website
 ### TODO:
-- [ ] Add about page
+- [x] Add about page
 - [ ] Add resources page
-- [ ] Redirect to a google form when clicking the registration button
-- [ ] Fix text in each committe section
+- [ ] Add sponsors page
+- [ ] **Pending** Fix text in each committe section
+- [ ] Write text about yourself in third-person

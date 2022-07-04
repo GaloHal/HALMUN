@@ -21,7 +21,7 @@ export const profileData = {
             'nid': 'amir-nurmukhambetov',
             'name': 'Amir Nurmukhambetov',
             'position': 'Director of IT',
-            'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            'description': 'Amir is excited to be part of the HALMUN team as a director of IT. He is a year 13 at the Haileybury Almaty sixth form, who is going to maintain the website and implement new technology in the workplace. In his free time, he loves to play basketball and spend time with his friends, but mainly he is working on his projects and freelancing as a backend developer. Amir is happy to invite you to HALMUN 2022. Feel open to contact him any time.',
             'mail': 'thereug6@gmail.com'
         }
     ],
@@ -44,8 +44,8 @@ export const profileData = {
         },
         {
             'imageSrc': '/images/team/tomiris-HALMUN.jpeg',
-            'nid': 'tomiris',
-            'name': 'Tomiris',
+            'nid': 'tomiris-kamitova',
+            'name': 'Tomiris Kamitova',
             'position': 'Vice Chair',
             'description': 'Tomiris is happy to be administering as Vice-Chair for ECOFIN in the new HALMUN. She studies in Haileybury Almaty, in year 12. Tomiris want to pursue her future career in politics and law. As for hobbies, she likes to read a lot of classic books as well as draw in her free time. Tomiris and the team for HALMUN are thrilled to welcome all of you and are looking forward to meeting all of the delegates.'
         }

@@ -1,9 +1,9 @@
-import './Background.css';
+import styles from './Background.module.css';
 
 function Background(props) {
     return (
         <div 
-            className='background-image' 
+            className={styles['background-image']}
             alt='Background'
             style={{
                 backgroundImage: `url(${props.imgSrc})`
