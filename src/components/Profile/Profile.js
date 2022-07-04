@@ -17,10 +17,12 @@ function Profile({
 
             <span className='p'>{description}</span>
 
-            <span className='p italic'>
-                <b>Contact: </b> 
-                <a href={`mailto:${mail}`}>{mail}</a>
-            </span>
+            {mail && 
+                (<span className='p italic'>
+                    <b>Contact: </b> 
+                    <a href={`mailto:${mail}`}>{mail}</a>
+                </span>)
+            }
         </div>
     );
 }
