@@ -14,6 +14,9 @@ import styles from './AboutUsPage.module.css';
 function AboutUsPage(props) {
     useEffect(() => {document.title = props.title || "" })
 
+    const secretariat = profileData['secretariat']
+    const dais = profileData['chairs']
+
     return (
         <>
              <Header
@@ -34,18 +37,18 @@ function AboutUsPage(props) {
                         textSize='h2'
                     />
 
-                    {/* <Profile
-                        imageSrc={profileData['secretariat'][0]['imageSrc']}
-                        position={profileData['secretariat'][0]['position']}
-                        name={profileData['secretariat'][0]['name']}
-                        description={profileData['secretariat'][0]['description']}
-                        mail={profileData['secretariat'][0]['mail']}
-                    /> */}
+                    <Profile
+                        imageSrc={secretariat[0]['imageSrc']}
+                        position={secretariat[0]['position']}
+                        name={secretariat[0]['name']}
+                        description={secretariat[0]['description']}
+                        mail={secretariat[0]['mail']}
+                    />
 
                     <ul className={styles['profiles-grid-layout']}>
                         {
-                            profileData['secretariat'].map((data, key) => {
-                                // if (key === 0) return (null);
+                            secretariat.map((data, key) => {
+                                if (key === 0 || key === secretariat.length - 1) return (null);
 
                                 return (
                                     <li className={styles['profile-item']}>
@@ -62,6 +65,14 @@ function AboutUsPage(props) {
                         }
                     </ul>
 
+                    <Profile
+                        imageSrc={secretariat[secretariat.length - 1]['imageSrc']}
+                        position={secretariat[secretariat.length - 1]['position']}
+                        name={secretariat[secretariat.length - 1]['name']}
+                        description={secretariat[secretariat.length - 1]['description']}
+                        mail={secretariat[secretariat.length - 1]['mail']}
+                    />
+
                     <Title
                         text='The Dais'
                         textSize='h2'
@@ -69,7 +80,7 @@ function AboutUsPage(props) {
 
                     <ul className={styles['profiles-grid-layout']}>
                         {
-                            profileData['chairs'].map((data, key) => {
+                            dais.map((data, key) => {
                                 return (
                                     <li className={styles['profile-item']}>
                                         <Profile
