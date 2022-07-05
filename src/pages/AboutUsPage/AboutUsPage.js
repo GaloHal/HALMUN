@@ -18,7 +18,7 @@ function AboutUsPage(props) {
         <>
              <Header
                 backgroundImgSrc='/images/background.jpeg'
-                type='header-content--left'
+                contentType='header-content--left'
                 title={
                     <Title
                         text='About HALMUN'

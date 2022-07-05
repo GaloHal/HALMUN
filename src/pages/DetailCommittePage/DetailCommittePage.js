@@ -26,7 +26,7 @@ function DetailComittePage(props) {
         <>
             <Header
                 backgroundImgSrc={committe['image']}
-                type='header-content--middle'
+                contentType='header-content--middle'
                 title={
                     <Title
                         text={committe['full-name']}

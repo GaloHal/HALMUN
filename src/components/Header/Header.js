@@ -5,21 +5,23 @@ import styles from './Header.module.css';
 
 function Header({
     backgroundImgSrc,
-    type = 'header-content--middle',
+    variant='header--full',
+    contentType = 'header-content--middle',
     title,
     desc = '',
+    withNav = true,
     children,
 }) {
     return (
-        <header>
-            <Navbar/>
+        <header className={styles[variant]}>
+            { withNav && <Navbar/> }
             <Background imgSrc={backgroundImgSrc}/>
 
             <div className={styles['header-container']}>
-                <div className={`${styles['header-content']} ${styles[type]}`}>
+                <div className={`${styles['header-content']} ${styles[contentType]}`}>
                     {title}
 
-                    <span className={`p ${styles['header-desc']}`}>{desc}</span>
+                    { desc ? (<span className={`p ${styles['header-desc']}`}>{desc}</span>): (null) }
 
                     {children && children}
                 </div>

@@ -19,7 +19,7 @@ function CommittesPage(props) {
         <>
             <Header
                 backgroundImgSrc='/images/background.jpeg'
-                type='header-content--middle'
+                contentType='header-content--middle'
 				title = {
 					<Title
 						text='Committes'
