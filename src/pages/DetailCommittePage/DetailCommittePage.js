@@ -64,6 +64,12 @@ function DetailComittePage(props) {
                             })
                         }
                     </ul>
+
+                    <Title
+                        text={`Topic: ${committe['topic-title']}`}
+                        textSize='h2'
+                    />
+                    <span className='p'>{committe['topic-description']}</span>
                 </div>
             </main>
 
