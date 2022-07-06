@@ -68,7 +68,7 @@ function Footer() {
                     <PageLink path='../resources' textStyle='p'>Resources</PageLink>
                     <PageLink path='../sponsors' textStyle='p'>Sponsors</PageLink>
                     <PageLink path={infoData['registration-link']} isExternalPath={true} textStyle='p'>Registration</PageLink>
-                    <PageLink path='../committes' textStyle='p'>Committes</PageLink>
+                    <PageLink path='../committes' textStyle='p'>Committees</PageLink>
                 </List>
 
                 <List title='Contact Us'>

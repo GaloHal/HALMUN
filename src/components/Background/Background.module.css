@@ -5,7 +5,7 @@
 
     background: url('../../../public/images/background.jpeg') fixed;
 
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
