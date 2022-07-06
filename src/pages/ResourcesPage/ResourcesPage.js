@@ -1,5 +1,8 @@
-import styles from './ResourcesPage.module.css';
+import { isMobile } from 'react-device-detect';
 import { useEffect } from 'react';
+
+import styles from './ResourcesPage.module.css';
+
 
 import Header from '../../components/Header';
 import Title from '../../components/Title';
@@ -12,15 +15,12 @@ function Resources(props) {
     return (
         <div className={styles['resourcesPage']}>
 
-            <header className='header'>
-                <Header
-                    withNav={false}
-                    variant='header--half'
-                    backgroundImgSrc='/images/background-info.jpeg'
-                />
-            </header>
+            <Header
+                variant={isMobile ? 'header--horizontal-half' : 'header--vertical-half'}
+                backgroundImgSrc='/images/background-info.jpeg'
+            />
 
-            <main className='main'>
+            <main className={styles['main']}>
                 <div className={`content content--left ${styles['content']}`}>
                     <Title text='Resources' textSize='h2'/>
 

@@ -18,7 +18,7 @@ function Profile({
             <span className='p'>{description}</span>
 
             {mail && 
-                (<span className='p italic'>
+                (<span className={`p italic ${styles['contact']}`}>
                     <b>Contact: </b> 
                     <a href={`mailto:${mail}`}>{mail}</a>
                 </span>)

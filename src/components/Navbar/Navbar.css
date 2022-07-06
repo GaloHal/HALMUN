@@ -1,8 +1,10 @@
 .navbar {
     position: fixed;
+    top: 0;
+    left: 0;
 
     width: 100%;
-    height: auto;
+    height: 20vh;
 
     background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.6) 39.06%, rgba(255, 255, 255, 0) 99.99%, rgba(255, 255, 255, 0) 100%);
 }

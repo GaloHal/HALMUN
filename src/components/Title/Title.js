@@ -7,10 +7,9 @@ function Title({
 }) {
     return (
         <div className={`${styles['title']} title`}>
-            <span className={textSize}>{text}</span>
-
-            <hr/>
-
+            <span className={`${textSize} ${styles['title-name']}`}>
+                {text}
+            </span>
             {
                 desc ? (
                     <span className={`p ${styles['desc']}`}> {desc} </span>

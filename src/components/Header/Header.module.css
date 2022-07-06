@@ -1,19 +1,36 @@
-.header--half {
+.header {
+    overflow: hidden;
+}
+
+.header--vertical-half {
     height: 100vh;
     width: 50vw;
+
+    overflow: initial;
 }
+.header--horizontal-half {
+    height: 50vh;
+    width: 100vw;
+
+    overflow: initial;
+}
+
 .header--full {
-    height: 100vh;
+    height: 100vh; 
     width: 100vw;
 }
 
+.header--full .header-container {
+    margin-top: 25vh !important;
+}
 
 .header-container {
-    width: 100%;
-    height: 100%;
+    width: inherit;
+    height: inherit;
 }
 .header-content {
     width: fit-content;
+    max-width: 100%;
     height: 100%;
 
     display: flex;
@@ -24,15 +41,21 @@
 }
 .header-desc {
     max-width: 50vw;
+
     text-align: center;
     margin: 3rem 0;
+}
+@media screen and (max-width: 600px) {
+    .header-desc {
+        max-width: 100vw;
+    }
 }
 
 .header-content--middle {    
     margin: 0 auto;
     
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .header-content--left {
     width: fit-content;
@@ -40,8 +63,8 @@
     margin: 0 10rem;
 
     align-items: flex-start;
-    justify-content: center;
 }
+
 .header-content--left .header-desc {
     text-align: left;
 }

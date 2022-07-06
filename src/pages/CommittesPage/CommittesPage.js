@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 
+import Navbar from '../../components/Navbar';
 import Header from '../../components/Header';
 import Title from '../../components/Title';
 import Committe from '../../components/Committe';
@@ -17,6 +18,7 @@ function CommittesPage(props) {
 
     return (
         <>
+			<Navbar />
             <Header
                 backgroundImgSrc='/images/background.jpeg'
                 contentType='header-content--middle'

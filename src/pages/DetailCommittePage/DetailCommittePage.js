@@ -1,6 +1,8 @@
 import { useParams } from 'react-router-dom';
 import { useEffect } from 'react';
+import { isMobile } from 'react-device-detect';
 
+import Navbar from '../../components/Navbar';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Title from '../../components/Title';
@@ -24,15 +26,17 @@ function DetailComittePage(props) {
 
     return (
         <>
+            <Navbar />
             <Header
                 backgroundImgSrc={committe['image']}
                 contentType='header-content--middle'
                 title={
                     <Title
-                        text={committe['full-name']}
-                        desc={committe['short-description']}
+                        text={isMobile ? committe['name'] : committe['full-name']}
+                        desc={committe['topic-short-description']}
                     />
                 }
+                // desc={isMobile ? "" : committe["detailed-description"]}
                 desc={committe['detailed-description']}
             >
             </Header>

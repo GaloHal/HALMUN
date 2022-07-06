@@ -3,7 +3,10 @@
     left: 0;
     top: 0;
 
-    background: url('../../../public/images/background.jpeg') no-repeat center center fixed;
+    background: url('../../../public/images/background.jpeg') fixed;
+
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
     z-index: -1;

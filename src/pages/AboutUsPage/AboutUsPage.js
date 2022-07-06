@@ -1,5 +1,7 @@
 import { useEffect } from 'react';
+import { isMobile } from 'react-device-detect';
 
+import Navbar from '../../components/Navbar';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Title from '../../components/Title';
@@ -19,9 +21,10 @@ function AboutUsPage(props) {
 
     return (
         <>
+            <Navbar />
              <Header
                 backgroundImgSrc='/images/background.jpeg'
-                contentType='header-content--left'
+                contentType={isMobile ? 'header-content--middle' : 'header-content--left'}
                 title={
                     <Title
                         text='About HALMUN'

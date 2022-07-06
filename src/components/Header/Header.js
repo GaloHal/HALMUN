@@ -9,12 +9,13 @@ function Header({
     contentType = 'header-content--middle',
     title,
     desc = '',
-    withNav = true,
     children,
 }) {
+
+    console.log(variant);
     return (
-        <header className={styles[variant]}>
-            { withNav && <Navbar/> }
+        <header 
+            className={`${styles['header']} ${styles[variant]}`}>
             <Background imgSrc={backgroundImgSrc}/>
 
             <div className={styles['header-container']}>

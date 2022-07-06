@@ -1,23 +1,32 @@
 .title {
     width: max-content;
-    margin-bottom: 1rem;
+    max-width: 100%;
+
+    margin: 1rem 0 ;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    text-align: center;
 }
 .title span {
     color: inherit;
 }
+.title-name {
+    min-width: min-content;
 
-.title hr {
-    border: var(--primary-color) solid 1px;
-	width: 100%;
+    margin: 2rem 0.5rem;
+
+    border-bottom: var(--primary-color) solid 2px;
+}
+.title :global(.h1) {
+    border-bottom: currentColor solid 2px;
 }
 
 .desc {
     min-width: 100%;
-    width: min-content;
+    width: 100%;
 
     text-align: center;
 }

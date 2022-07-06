@@ -1,5 +1,6 @@
 .resourcesPage {
     width: 100vw;
+    height: 100vh;
 
     display: flex;
     flex-direction: row;
@@ -7,19 +8,24 @@
 .resourcesPage a:hover {
     text-decoration: underline;
 }
-
-.header {
-    flex-grow: 1;
+@media screen and (max-width: 600px) {
+    .resourcesPage {
+        flex-direction: column;
+        height: auto;
+    }
 }
 
-.main {
-    flex-grow: 1;
-}
 .content {
-    margin: 3rem 5rem;
+    margin: 0 5rem;
 }
+@media screen and (max-width: 600px) {
+    .content {
+        margin: 0 1rem;
+    }
+}
+
 .content > * {
-    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .list-resources {

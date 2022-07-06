@@ -10,3 +10,13 @@
 
     list-style: none;
 }
+
+.profile-item {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .profiles-grid-layout {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

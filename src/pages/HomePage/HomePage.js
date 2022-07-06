@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 
+import Navbar from '../../components/Navbar';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Title from '../../components/Title';
@@ -16,6 +17,7 @@ function HomePage(props) {
     
     return (
         <>
+            <Navbar />
             <Header
                 backgroundImgSrc='/images/background.jpeg'
                 contentType='header-content--middle'
@@ -39,7 +41,7 @@ function HomePage(props) {
                     />
 
                     <div className={styles['letter']}>
-                        <span className='p'>
+                        <span className='ltl p'>
                             {infoData['letter']}
                         </span>
 

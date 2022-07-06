@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 
 import styles from './SponsorsPage.module.css';
 
+import Navbar from '../../components/Navbar';
 import Header from "../../components/Header";
 import Footer from '../../components/Footer'
 import Title from '../../components/Title';
@@ -13,6 +14,7 @@ function SponsorsPage(props) {
 
     return (
         <>
+            <Navbar />
             <Header
                 backgroundImgSrc='/images/background.jpeg'
                 title={<Title text='Our Sponsors' />}
