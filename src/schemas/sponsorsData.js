@@ -13,5 +13,10 @@ export const sponsorsData = [
         'src': '/images/sponsors/unhcr.png',
         'nid': 'unhcr',
         'name': 'United Nations High Commissioner for Refugees Committee'
+    },
+    {
+        'src': '/images/sponsors/haileybury-almaty.png',
+        'nid': 'haileybury-almaty',
+        'name': 'Haileybury Almaty'
     }
 ]
