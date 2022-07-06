@@ -25,7 +25,8 @@ function Resources(props) {
                     <Title text='Resources' textSize='h2'/>
 
                     <span className='p'>
-                        All Delegates and Faculty Advisors are required to read and agree to the Background Guides linked below. The Background Guides contain vital information about HALMUN 2023, including deadlines, fees, refund policies, and more.<br/><br/>
+                        All Delegates and Faculty Advisors are encouraged to read the Delegate Handbook linked below. The Handbook contains vital information about HALMUN 2022, including the Rules of Procedure, deadlines, conference policies and more.<br/><br/>
+                        Delegates are also recommended to lay the groundwork for a successful MUN performance by reading through the Country Matrix, Background Guides and preparatory videos.<br/><br/>
                         If you have any questions, concerns, or requests, feel free to reach out at <a href='mailto:halmunstaff@gmail.com'>halmunstaff@gmail.com</a>.
                     </span>
                 

@@ -5,6 +5,7 @@
 
     background: url('../../../public/images/background.jpeg') no-repeat center center fixed;
     background-size: cover;
+    object-fit: cover;
     z-index: -1;
 
     width: inherit;

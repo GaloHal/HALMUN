@@ -1,47 +1,66 @@
 import { Link } from 'react-router-dom';
-import { ReactComponent as CaretIcon } from '../../icons/caret.svg';
+import { BrowserView, MobileView } from 'react-device-detect';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCaretDown, faHouse, faCircleInfo, faUserPen, faUser } from '@fortawesome/free-solid-svg-icons';
 
 import { useState } from 'react';
 
 import { committesData } from '../../schemas/committeData';
 import { infoData } from '../../schemas/infoData';
 
-import styles from './Navbar.module.css';
+import './Navbar.css';
 
 function NavItem({
-    path,
+    path = '',
     text,
+    displayIcon,
     children,
     icon=<></>,
     isExternalPath=false,
     isDropDown=false,
     className = 'nav-item',
 }) {
-
     const [open, setOpen] = useState(false);
 
     return (
-        <li className={styles[className]}
-            onMouseEnter={() => setOpen(true)}
-            onMouseLeave={() => setOpen(false)}>
-
-            {
-                text ? (
-                    <div className={styles['nav-item-content']}>    
-                        {
-                            isExternalPath ? (        
-                                <a href={path} className='p'>{text}</a>
-                            ) : (
-                                <Link to={path} className='p'>{text}</Link>
-                            )
-                        }
-                        {icon}
-                    </div>
-                ) : null
-            }
-
-            { isDropDown ? (open && children) : children }
-        </li>
+        <>
+            <MobileView 
+                className={className}
+                onClick={() => setOpen(!open)}
+            >
+                <div className='nav-item-content'>
+                    {
+                        isExternalPath ? (
+                            <a href={path}>
+                                <FontAwesomeIcon icon={displayIcon}/>
+                            </a>
+                        ) : (
+                            <Link to={path}>
+                                <FontAwesomeIcon icon={displayIcon}/>
+                            </Link>
+                        )
+                    }
+                </div>
+                { isDropDown ? (open && children) : children }
+            </MobileView>
+            <BrowserView 
+                className={className}
+                onMouseEnter={() => setOpen(true)}
+                onMouseLeave={() => setOpen(false)}
+            >
+                <div className='nav-item-content'>
+                    {
+                        isExternalPath ? (        
+                            <a href={path} className='p'>{text}</a>
+                        ) : (
+                            <Link to={path} className='p'>{text}</Link>
+                        )
+                    }
+                    <FontAwesomeIcon icon={icon}/>
+                </div>
+                { isDropDown ? (open && children) : children }
+            </BrowserView>
+        </>
     );
 }
 
@@ -51,7 +70,7 @@ function DropDownItem({
     isExternalPath=false,
 }) {
     return (
-        <li className={styles['menu-item']}>
+        <li className='drop-down_item'>
             {
                 isExternalPath ? (        
                     <a href={path} className='p'>{text}</a>
@@ -64,7 +83,7 @@ function DropDownItem({
 }
 function DropDownMenu(props) {
     return (
-        <ul className={styles['drop-down-menu']}>
+        <ul className='drop-down'>
             {props.children}
         </ul>
     );
@@ -73,14 +92,19 @@ function DropDownMenu(props) {
 
 function Navbar() {
     return (
-        <nav className={styles['navbar']}>
-            <ul className={styles['navbar-nav']}>
-                <NavItem path='../' text='Home' />
+        <nav className='navbar'>
+            <ul className='navbar-nav'>
+                <NavItem 
+                    path='../' 
+                    text='Home' 
+                    displayIcon={faHouse}
+                />
                 
                 <NavItem 
-                    path='../resources' 
                     text='About' 
-                    icon={<CaretIcon />} 
+                    displayIcon={faCircleInfo}
+
+                    icon={faCaretDown} 
                     isDropDown={true}
                 >
                     <DropDownMenu>
@@ -90,16 +114,14 @@ function Navbar() {
                     </DropDownMenu>
                 </NavItem>
 
-                <NavItem className='nav-logo'>
+                <li className='nav-logo'>
                     <img src='/images/logo.png' alt='logo'/>
-                </NavItem>
-                
-                <NavItem path={infoData['registration-link']} isExternalPath={true} text='Registration'/>
+                </li>
                 
                 <NavItem 
-                    path='../committes' 
-                    text='Committees' 
-                    icon={<CaretIcon />} 
+                    text='Committees'
+                    displayIcon={faUser} 
+                    icon={faCaretDown} 
                     isDropDown={true}
                 >
                     <DropDownMenu>
@@ -113,6 +135,13 @@ function Navbar() {
                         })}
                     </DropDownMenu>
                 </NavItem>
+
+                <NavItem 
+                    path={infoData['registration-link']} 
+                    isExternalPath={true} 
+                    text='Registration'
+                    displayIcon={faUserPen}
+                />
             </ul>
         </nav>
     );

@@ -12,8 +12,9 @@ export const profileData = {
             'imageSrc': '/images/team/alinur-HALMUN.jpeg',
             'nid': 'alinur-sayat',
             'name': 'Alinur Sayat',
-            'position': '',
-            'description': '',
+            'position': 'Director General',
+            'description': 'Alinur Sayat will be taking the role of Director General of HALMUN 2022. With the experience of organizing the HALMUN 2021, Alinur is going to work hard in order to make the conference go as smooth as possible and your MUN experience memorable. Alinur Sayat has experience winning many best delegate awards and chairing experience in both local and international MUNs all around the world, hoping that you would enjoy the upcoming debate.',
+            'mail': 'sayat.alinur1@gmail.com'
         },
         {
             'imageSrc': '/images/team/dana-HALMUN.jpeg',
@@ -54,7 +55,8 @@ export const profileData = {
             'nid': 'alikseniia-martysheva',
             'name': 'Alikseniia Martysheva',
             'position': 'ECOFIN Chair',
-            'description': ''
+            'description': 'Alikseniia is honoured to be the ECOFIN Chair of HALMUN 2022. She is the Haileybury Almaty School Captain and plans to read law in the future. Recently, she has found it extremely engaging to peruse through Kazakh and Kyrgyz laws, codes and normative acts. She loves coffee and alternative/ grunge rock. Alikseniia looks forward to working with you during the conference, so feel free to contact her anytime.',
+            'mail': 'alikseniiamartysheva@gmail.com'
         },
         {
             'imageSrc': '/images/team/tomiris-HALMUN.jpeg',
@@ -68,7 +70,8 @@ export const profileData = {
             'nid': 'selin-chetinelli',
             'name': 'Selin Chetinelli',
             'position': 'UNHCR Chair',
-            'description': ''
+            'description': 'Selin is very thrilled to be serving as the Chair of the UNHCR committee of HALMUN in its 2nd iteration. She is a Year 13 Haileybury Almaty student, who will be studying Engineering at university. Selin is passionate about community service and is the founder of a project dedicated to tutoring children living at women’s shelters across Kazakhstan. She is also an intern at the Syrian Emergency Task Force. In her spare time, she can be found playing the piano at school. Selin is eager to be a part of the HALMUN team, feel free to contact her.',
+            'mail': 'chetinelliselin@gmail.com'
         },
         {
             'imageSrc': '/images/team/ulpan-HALMUN.jpeg',

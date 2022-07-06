@@ -8,5 +8,10 @@ export const sponsorsData = [
         'src': '/images/sponsors/jaqsylq.jpeg',
         'nid': 'jaqsylq',
         'name': 'Jaqsylq Charity'
+    },
+    {
+        'src': '/images/sponsors/unhcr.png',
+        'nid': 'unhcr',
+        'name': 'United Nations High Commissioner for Refugees Committee'
     }
 ]
