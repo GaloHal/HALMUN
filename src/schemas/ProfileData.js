@@ -13,7 +13,7 @@ export const profileData = {
             'nid': 'alinur-sayat',
             'name': 'Alinur Sayat',
             'position': 'Director General',
-            'description': 'Alinur Sayat will be taking the role of Director General of HALMUN 2022. With the experience of organizing the HALMUN 2021, Alinur is going to work hard in order to make the conference go as smooth as possible and your MUN experience memorable. Alinur Sayat has experience winning many best delegate awards and chairing experience in both local and international MUNs all around the world, hoping that you would enjoy the upcoming debate.',
+            'description': 'Alinur Sayat will be taking the role of Director General and Alinur is going to work hard in order to make the conference go as smooth as possible.  Alinur Sayat is a year 13 student, with the passion in bioengineering and related sciences. In his free time Alinur enjoys playing piano, guitar and dombra. Charity takes up a lot of Alinur’s free time as well.',
             'mail': 'sayat.alinur1@gmail.com'
         },
         {
