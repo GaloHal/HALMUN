@@ -9,10 +9,18 @@
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
+
+    background-attachment: fixed;
+
     z-index: -1;
 
     width: inherit;
     height: inherit;
 
     filter: brightness(60%);
+}
+@media screen and (max-width: 600px) {
+    .background-image {
+        background-attachment: scroll;
+    }
 }

@@ -20,8 +20,8 @@ export const profileData = {
             'imageSrc': '/images/team/dana-HALMUN.jpeg',
             'nid': 'dana-skorokhodova',
             'name': 'Dana Skorokhodova',
-            'position': 'Director of Marketing',
-            'description': 'Dana is very excited to join the HALMUN Team as the Marketing Director. She is a year 13 at the Haileybury Almaty sixth form, who is going to be majoring in media or finances in college. In her free time, she loves to read and spend time with her friends, sometimes doing it on different volunteering projects. Dana is super excited to welcome you to HALMUN 2022 and feel free to reach out to her.',
+            'position': 'Director of Outreach',
+            'description': 'Dana is very excited to join the HALMUN Team as the Director of Outreach. She is a year 13 at the Haileybury Almaty sixth form, who is going to be majoring in media or finances in college. In her free time, she loves to read and spend time with her friends, sometimes doing it on different volunteering projects. Dana is super excited to welcome you to HALMUN 2022 and feel free to reach out to her.',
             'mail': 'dd.skorokhodova@gmail.com'
         },
         {
@@ -63,7 +63,8 @@ export const profileData = {
             'nid': 'tomiris-kamitova',
             'name': 'Tomiris Kamitova',
             'position': 'ECOFIN Vice Chair',
-            'description': 'Tomiris is happy to be administering as Vice-Chair for ECOFIN in the new HALMUN. She studies in Haileybury Almaty, in year 12. Tomiris want to pursue her future career in politics and law. As for hobbies, she likes to read a lot of classic books as well as draw in her free time. Tomiris and the team for HALMUN are thrilled to welcome all of you and are looking forward to meeting all of the delegates.'
+            'description': 'Tomiris is happy to be administering as Vice-Chair for ECOFIN in the new HALMUN. She studies in Haileybury Almaty, in year 12. Tomiris want to pursue her future career in politics and law. As for hobbies, she likes to read a lot of classic books as well as draw in her free time. Tomiris and the team for HALMUN are thrilled to welcome all of you and are looking forward to meeting all of the delegates.',
+            'mail': '11kamitovat@haileyburyalmaty.kz'
         },
         {
             'imageSrc': '/images/team/selin-HALMUN.jpeg',
