@@ -84,7 +84,7 @@ function Footer() {
 
                     <PageLink>
                         <b>Phones:</b><br/>
-                        87478303734
+                        +7 (727) 355-01-00
                     </PageLink>
                 </List>
             </div>
