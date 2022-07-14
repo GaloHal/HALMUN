@@ -12,7 +12,9 @@ export const committesData = [
         "topic-description": "Coming soon",
 
         "chair": "iskander-kessikbayev",
-        "vice-chair": "ruihan-chu"
+        "vice-chair": "ruihan-chu",
+
+        "background-guideline-link": ""
     },
     {
         "name": "UNHCR",
@@ -27,7 +29,9 @@ export const committesData = [
         "topic-description": "Coming soon",
 
         "chair": "selin-chetinelli",
-        "vice-chair": "ulpan-nurdilda"
+        "vice-chair": "ulpan-nurdilda",
+        
+        "background-guideline-link": "https://drive.google.com/file/d/1revgG4wPWTYQBgwFNgK2e_gis4rFWXGy/view?usp=sharing"
     },
     {
         "name": "ECOFIN",
@@ -42,6 +46,8 @@ export const committesData = [
         "topic-description": "Coming soon",
 
         "chair": "alikseniia-martysheva",
-        "vice-chair": "tomiris-kamitova"
+        "vice-chair": "tomiris-kamitova",
+
+        "background-guideline-link": ""
     }
 ]

@@ -33,9 +33,13 @@ function Resources(props) {
                     <Link className='p' to='../'>HOME</Link>
 
                     <ul className={styles['list-resources']}>
-                        <li className='p'>Country Matrix</li>
+                        <li className='p'>
+                            <a href='https://mymun.com/muns/halmun-2022/country-matrix'>Country Matrix</a>
+                        </li>
                         <li className='p'>Delegate Handbook</li>
-                        <li className='p'>Background guides</li>
+                        <li className='p'>
+                            <Link to='../committes'>Background guides</Link>
+                        </li>
                         <li className='p'>Videos</li>
                     </ul>
                 </div>

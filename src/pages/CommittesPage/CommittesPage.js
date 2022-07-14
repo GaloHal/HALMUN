@@ -19,7 +19,7 @@ function CommittesPage(props) {
     return (
         <>
 			<Navbar />
-            <Header
+            {/* <Header
                 backgroundImgSrc='/images/background.jpeg'
                 contentType='header-content--middle'
 				title = {
@@ -31,7 +31,7 @@ function CommittesPage(props) {
 			>
 
 				<LinkButton to={infoData['registration-link']}>Register Here</LinkButton>
-			</Header>
+			</Header> */}
 
             <main>
            		<div className={`${styles['committe-content']} content`}>
@@ -46,6 +46,7 @@ function CommittesPage(props) {
 									<Committe
 										imgSrc={data['image']}
 										link={`../committes/${data['id']}`}
+										bgLink={data['background-guideline-link']}
 										title={data['name']}
 										desc={data['short-description']}
 									/>

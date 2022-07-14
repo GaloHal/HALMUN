@@ -23,6 +23,11 @@
 .header--full .header-container {
     margin-top: 25vh !important;
 }
+@media screen and (max-width: 600px) {
+    .header--full .header-container {
+        margin-top: 10vh !important;
+    }
+}
 
 .header-container {
     width: inherit;

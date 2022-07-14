@@ -6,7 +6,7 @@ import Navbar from '../../components/Navbar';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Title from '../../components/Title';
-// import LinkButton from '../../components/LinkButton';
+import LinkButton from '../../components/LinkButton';
 import Profile from '../../components/Profile';
 
 import { committesData } from '../../schemas/committeData';
@@ -39,6 +39,7 @@ function DetailComittePage(props) {
                 // desc={isMobile ? "" : committe["detailed-description"]}
                 desc={committe['detailed-description']}
             >
+                <LinkButton to={committe['background-guideline-link']}>Background Guide</LinkButton>
             </Header>
             
             <main>

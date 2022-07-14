@@ -11,12 +11,21 @@ function Comitte(props) {
                 <span className='h2'>{props.title}</span>
                 <span className='p'>{props.desc}</span>
 
-                <LinkButton 
-                    to={props.link}
-                    className={styles['learn-more-button']}
-                >
-                    Learn More
-                </LinkButton>
+                <div className={styles['buttons-container']}>
+                    <LinkButton 
+                        to={props.link}
+                        className={styles['learn-more-button']}
+                    >
+                        Learn More
+                    </LinkButton>
+
+                    <LinkButton 
+                        to={props.bgLink}
+                        className={styles['learn-more-button']}
+                    >
+                        Background Guide
+                    </LinkButton>
+                </div>
             </div>
         </div>
     );
