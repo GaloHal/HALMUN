@@ -39,7 +39,7 @@ function DetailComittePage(props) {
                 // desc={isMobile ? "" : committe["detailed-description"]}
                 desc={committe['detailed-description']}
             >
-                <LinkButton to={committe['background-guideline-link']}>Background Guide</LinkButton>
+                <LinkButton to={committe['background-guideline-link']} target="_blank" download>Background Guide</LinkButton>
             </Header>
             
             <main>

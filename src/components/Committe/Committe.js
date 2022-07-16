@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import LinkButton from '../LinkButton';
 import styles from './Committe.module.css';
 
@@ -18,13 +20,7 @@ function Comitte(props) {
                     >
                         Learn More
                     </LinkButton>
-
-                    <LinkButton 
-                        to={props.bgLink}
-                        className={styles['learn-more-button']}
-                    >
-                        Background Guide
-                    </LinkButton>
+                    <LinkButton to={props.bgLink} target="_blank" download className={styles['learn-more-button']}>Background Guide</LinkButton>
                 </div>
             </div>
         </div>

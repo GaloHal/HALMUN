@@ -7,8 +7,8 @@ export const committesData = [
         "short-description": "The United Nations Security Council (UNSC) focuses on peace making and security, as well as the safety of all nations.",
         "detailed-description": "The United Nations Security Council (UNSC) is one of the six principal organs of the United Nations (UN) and is charged with ensuring international peace and security, recommending the admission of new UN members to the General Assembly, and approving any changes to the UN Charter. Its powers include establishing peacekeeping operations, enacting international sanctions, and authorizing military action. The UNSC is the only UN body with the authority to issue binding resolutions on member states.",
         
-        "topic-title": "The Persian Gulf Crisis",
-        "topic-short-description": "UNSC topic for this year's conference is the Persian Gulf Crisis.",
+        "topic-title": "Resolving the Persian Gulf Crisis",
+        "topic-short-description": "UNSC topic for this year's conference is Resolving the Persian Gulf Crisis.",
         "topic-description": "Coming soon",
 
         "chair": "iskander-kessikbayev",
@@ -31,7 +31,7 @@ export const committesData = [
         "chair": "selin-chetinelli",
         "vice-chair": "ulpan-nurdilda",
         
-        "background-guideline-link": "https://drive.google.com/file/d/1revgG4wPWTYQBgwFNgK2e_gis4rFWXGy/view?usp=sharing"
+        "background-guideline-link": "/data/BackgroundGuidelines/UNHCR.pdf"
     },
     {
         "name": "ECOFIN",
