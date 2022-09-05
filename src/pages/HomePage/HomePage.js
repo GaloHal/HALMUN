@@ -56,7 +56,7 @@ function HomePage(props) {
 
                 <div className='content content--middle'>
                     <Title 
-                        text='Sponsors'
+                        text='Partners'
                         textSize='h2'
                     />
 

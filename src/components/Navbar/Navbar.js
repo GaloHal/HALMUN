@@ -110,7 +110,7 @@ function Navbar() {
                     <DropDownMenu>
                         <DropDownItem path='../about-us' text='Staff'/>
                         <DropDownItem path='../resources' text='Resources'/>
-                        <DropDownItem path='../sponsors' text='Sponsors'/>
+                        <DropDownItem path='../sponsors' text='Partners'/>
                     </DropDownMenu>
                 </NavItem>
 

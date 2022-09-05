@@ -17,7 +17,7 @@ function SponsorsPage(props) {
             <Navbar />
             <Header
                 backgroundImgSrc='/images/background.jpeg'
-                title={<Title text='Our Sponsors' />}
+                title={<Title text='Our Partners' />}
                 type='header-content--middle'
                 desc='We would like to thank the following sponsors for their generous support of HALMUN 2022. If you or your organization is interested in a partnership, please reach out to halmunstaff@gmail.com'
             />

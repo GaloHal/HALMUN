@@ -13,7 +13,7 @@ function Main() {
             <Route exact path='/' element={<HomePage title='Home — HALMUN' />} />
             <Route exact path='/about-us' element={<AboutUsPage title='About Us — HALMUN' />} />
             <Route exact path='/resources' element={<ResourcesPage title='Resources — HALMUN' />} />
-            <Route exact path='/sponsors' element={<SponsorsPage title='Sponsors — HALMUN' />} />
+            <Route exact path='/sponsors' element={<SponsorsPage title='Partners — HALMUN' />} />
 
             <Route exact path='/committes' element={<CommittesPage title='Committees — HALMUN' />} />
             <Route exact path='/committes/:id' element={<DetailCommittePage title='{id} — HALMUN' />} />
