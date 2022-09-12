@@ -34,7 +34,7 @@ function Resources(props) {
 
                     <ul className={styles['list-resources']}>
                         <li className='p'>
-                            <a href='https://mymun.com/muns/halmun-2022/country-matrix'>Country Matrix</a>
+                            <a href='https://docs.google.com/spreadsheets/d/1eQaj9rX1NBu5x1VsT9MpSAZ-jsq-BQn1r3EsdLp1kRI/edit?usp=sharing'>Country Matrix</a>
                         </li>
                         <li className='p'>Delegate Handbook</li>
                         <li className='p'>
