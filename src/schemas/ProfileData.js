@@ -13,7 +13,7 @@ export const profileData = {
             'nid': 'alinur-sayat',
             'name': 'Alinur Sayat',
             'position': 'Director General',
-            'description': 'Alinur Sayat will be taking the role of Director General and Alinur is going to work hard in order to make the conference go as smooth as possible.  Alinur Sayat is a year 13 student, with the passion in bioengineering and related sciences. In his free time Alinur enjoys playing piano, guitar and dombra. Charity takes up a lot of Alinur’s free time as well.',
+            'description': 'Alinur Sayat will be taking the role of Director General and Alinur is going to work hard in order to make the conference go as smoothly as possible. Alinur Sayat is a year 13 student, with a passion for bioengineering and related sciences. In his free time, Alinur enjoys playing piano, guitar, and dombra. Charity takes up a lot of Alinur’s free time as well.',
             'mail': '10sayatl@haileyburyalmaty.kz'
         },
         {
@@ -21,7 +21,7 @@ export const profileData = {
             'nid': 'dana-skorokhodova',
             'name': 'Dana Skorokhodova',
             'position': 'Director of Outreach',
-            'description': 'Dana is very excited to join the HALMUN Team as the Director of Outreach. She is a year 13 at the Haileybury Almaty sixth form, who is going to be majoring in media or finances in college. In her free time, she loves to read and spend time with her friends, sometimes doing it on different volunteering projects. Dana is super excited to welcome you to HALMUN 2022 and feel free to reach out to her.',
+            'description': 'Dana is very excited to join the HALMUN Team as the Director of Outreach. She is a year 13 at the Haileybury Almaty sixth form and is planning to major in marketing in college. In her free time, she loves to read and spend time with her friends, sometimes doing it on different volunteering projects. Dana can\'t wait to welcome you to HALMUN 2022.',
             'mail': '15skorokhodovad@haileyburyalmaty.kz'
         },
         {

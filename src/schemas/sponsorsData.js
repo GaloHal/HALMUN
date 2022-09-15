@@ -19,9 +19,4 @@ export const sponsorsData = [
         'nid': 'haileybury-almaty',
         'name': 'Haileybury Almaty'
     },
-    {
-        'src': '/images/sponsors/kiit-mun.jpeg',
-        'nid': 'kiit-mun',
-        'name': 'KIIT MUN'
-    }
 ]
