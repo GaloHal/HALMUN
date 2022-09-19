@@ -36,7 +36,10 @@ function Resources(props) {
                         <li className='p'>
                             <a href='https://docs.google.com/spreadsheets/d/1eQaj9rX1NBu5x1VsT9MpSAZ-jsq-BQn1r3EsdLp1kRI/edit?usp=sharing'>Country Matrix</a>
                         </li>
-                        <li className='p'>Delegate Handbook</li>
+                        <li className='p'>
+                            <a href="/data/Final-Delegate-Handbook.pdf" target="_blank">Delegate Handbook</a>    
+                        </li>
+                        
                         <li className='p'>
                             <Link to='../committes'>Background guides</Link>
                         </li>

@@ -21,8 +21,9 @@ export const committesData = [
         "full-name": "United Nations High Commissioner for Refugees Committee",
         "id": "unhcr",
         "image": "/images/unhcr.jpeg",
-        "short-description": "The United Nations Human Rights Council (UNHRC) is responsible for the protection and promotion of all human rights globally.",
-        "detailed-description": "The Council meets at the UN Office at Geneva, and there, delegates explore allegations of breaches of human rights in the United Nations member states, and address thematic human rights issues, for instance, freedom of association and assembly, freedom of expression, freedom of belief and religion, women’s rights, LGBT+ rights, and the rights of racial and ethnic minorities. In this committee delegates will discuss complex problems, and cooperate to come up with the most considered and well thought solution in the form of resolutions.",
+        "short-description": "The United Nations High Commissioner for Refugees is a United Nations agency mandated to aid and protect refugees, forcibly displaced communities, and stateless people, and to assist in their voluntary repatriation, local integration or resettlement to a third country.",
+        
+        "detailed-description": "The United Nations High Commissioner for Refugees is a United Nations agency mandated to aid and protect refugees, forcibly displaced communities, and stateless people, and to assist in their voluntary repatriation, local integration or resettlement to a third country.",
 
         "topic-title": "Climate Change and Displacement",
         "topic-short-description": "UNHCR topic for this year's conference is the Climate Change and Displacement.",
