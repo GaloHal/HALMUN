@@ -9,7 +9,7 @@ export const committesData = [
         
         "topic-title": "Resolving the Persian Gulf Crisis",
         "topic-short-description": "UNSC topic for this year's conference is Resolving the Persian Gulf Crisis.",
-        "topic-description": "Coming soon",
+        "topic-description": "In retaliation for Iraq's illegal annexation of Kuwait, an alliance of 35 nations led by the United States launched the Gulf War. On January 17, 1991, an airborne and marine attack started the first fight to drive Iraqi forces out of Kuwait. This bombardment lasted for five weeks. During this time, Iraq started firing projectiles into Israel in an effort to elicit a military reaction from Israel, which the Iraqi authorities hoped would force the coalition's Muslim governments to disband and endanger the coalition against Iraq. Iraq deployed Scud missiles at alliance sites located in Saudi Arabia after its missile assault against Israel failed to elicit the anticipated response.\n\nThe alliance then launched a ground invasion into Kuwait, which was under Iraqi control, on February 24. Coalition troops won the operation handily, liberating Kuwait and immediately starting their drive over the Iraq-Kuwait boundary into Iraq terrain. 100 hours after the ground war started, the alliance stopped advancing and issued a cease-fire.\n\nIraq, Kuwait, and the regions bordering Iraq and Saudi Arabia were the only places where airborne and land combat took place.\n\nAfter the regular broadcasting of footage from cameras onboard American bombers during Operation Desert Storm, the war also acquired the moniker Video Game War. Live newscasts from front lines of the conflict were first introduced during this conflict, primarily by the American network CNN.",
 
         "chair": "iskander-kessikbayev",
         "vice-chair": "ruihan-chu",
@@ -27,7 +27,7 @@ export const committesData = [
 
         "topic-title": "Climate Change and Displacement",
         "topic-short-description": "UNHCR topic for this year's conference is the Climate Change and Displacement.",
-        "topic-description": "Coming soon",
+        "topic-description": "Climate change is the defining crisis of our time and its impacts are disproportionately experienced by people in vulnerable situations, such as those who have fled war and persecution. In 2020 alone, over 30 million displacements were triggered by environmental disasters. Most displaced people remain within the borders of their home country. Research suggests that without proper response measures, climate change could cause more than 200 million people to be internally displaced by 2050.",
 
         "chair": "selin-chetinelli",
         "vice-chair": "ulpan-nurdilda",
@@ -44,7 +44,7 @@ export const committesData = [
 
         "topic-title": "Tacking Global Inflation",
         "topic-short-description": "ECOFIN topic for this year's conference is the Tackling Global Inflation.",
-        "topic-description": "Coming soon",
+        "topic-description": "The topic for this year’s ECOFIN is “Tackling Global Inflation”. Before exploring this topic in greater detail, key concepts should be defined and distinctions should be made to avoid any baseline misunderstandings.\n\nInflation is the rate of increase in prices of a basket of goods and services over a given period of time. The most commonly used inflation indexes are the Consumer Price Index (CPI) and the Wholesale Price Index (WPI). The CPI is a measure that examines the weighted average of prices of a basket of goods and services which are of primary consumer needs. The CPI is calculated by taking price changes for each item in the predetermined basket of goods and averaging them based on their relative weight in the whole basket. The prices in consideration are the retail prices of each item, as available for purchase by the individual citizens. The WPI, on the other hand, measures and tracks the changes in the price of goods in the stages before the retail level.",
 
         "chair": "alikseniia-martysheva",
         "vice-chair": "tomiris-kamitova",
