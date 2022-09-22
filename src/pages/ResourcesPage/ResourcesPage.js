@@ -43,7 +43,7 @@ function Resources(props) {
                         <li className='p'>
                             <Link to='../committes'>Background guides</Link>
                         </li>
-                        <li className='p'>Videos</li>
+                        <li className='p'>Beginner Tips</li>
                     </ul>
                 </div>
             </main>

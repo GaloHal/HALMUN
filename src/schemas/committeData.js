@@ -14,7 +14,7 @@ export const committesData = [
         "chair": "iskander-kessikbayev",
         "vice-chair": "ruihan-chu",
 
-        "background-guideline-link": ""
+        "background-guideline-link": "/data/BackgroundGuidelines/UNSC.pdf"
     },
     {
         "name": "UNHCR",
@@ -49,6 +49,6 @@ export const committesData = [
         "chair": "alikseniia-martysheva",
         "vice-chair": "tomiris-kamitova",
 
-        "background-guideline-link": ""
+        "background-guideline-link": "/data/BackgroundGuidelines/ECOFIN.pdf"
     }
 ]
