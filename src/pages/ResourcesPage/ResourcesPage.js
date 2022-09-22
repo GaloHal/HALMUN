@@ -43,7 +43,9 @@ function Resources(props) {
                         <li className='p'>
                             <Link to='../committes'>Background guides</Link>
                         </li>
-                        <li className='p'>Beginner Tips</li>
+                        <li className='p'>
+                            <a href='./data/Beginner-Tips.pdf'>Beginner Tips</a>
+                        </li>
                     </ul>
                 </div>
             </main>
