@@ -47,7 +47,7 @@ export const profileData = {
             'nid': 'ruihan-chu',
             'name': 'Ruihan Chu',
             'position': 'UNSC Vice Chair',
-            'description': 'Ruihan is  very honored to be serving as the Vice-Chair of the UNSC committee. She is a year 12 student in Haileybury Almaty, who is interested in STEM and Music. You will find her playing piano and painting landscapes and portraits during her free time. Ruihan welcomes you all to the 2nd HALMUN 2022. Feel free to reach out to her.',
+            'description': 'Ruihan is very honored to be serving as the Vice-Chair of the UNSC committee. She is a year 12 student in Haileybury Almaty, who is interested in STEM and Music. You will find her playing piano and painting landscapes and portraits during her free time. Ruihan welcomes you all to the 2nd HALMUN 2022. Feel free to reach out to her.',
             'mail': '11chur@haileyburyalmaty.kz'
         },
         {
