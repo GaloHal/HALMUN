@@ -9,7 +9,7 @@ export const profileData = {
             'mail': '10kul-muhammeda@haileyburyalmaty.kz'
         },
         {
-            'imageSrc': '/images/team/alinur-HALMUN.jpeg',
+            'imageSrc': '/images/team/alinur-HALMUN.jpg',
             'nid': 'alinur-sayat',
             'name': 'Alinur Sayat',
             'position': 'Director General',
