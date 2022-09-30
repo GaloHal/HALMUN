@@ -35,7 +35,7 @@ export const profileData = {
     ],
     'chairs': [
         {
-            'imageSrc': '/images/team/iskander-HALMUN.jpeg',
+            'imageSrc': '/images/team/iskander-HALMUN.jpg',
             'nid': 'iskander-kessikbayev',
             'name': 'Iskander Kessikbayev',
             'position': 'UNSC Chair',
@@ -43,7 +43,7 @@ export const profileData = {
             'mail': '10kessikbayevi@haileyburyalmaty.kz'
         },
         {
-            'imageSrc': '/images/team/ruihan-HALMUN.jpeg',
+            'imageSrc': '/images/team/ruihan-HALMUN.jpg',
             'nid': 'ruihan-chu',
             'name': 'Ruihan Chu',
             'position': 'UNSC Vice Chair',
@@ -51,7 +51,7 @@ export const profileData = {
             'mail': '11chur@haileyburyalmaty.kz'
         },
         {
-            'imageSrc': '/images/team/alikseniia-HALMUN.jpeg',
+            'imageSrc': '/images/team/alikseniia-HALMUN.jpg',
             'nid': 'alikseniia-martysheva',
             'name': 'Alikseniia Martysheva',
             'position': 'ECOFIN Chair',
@@ -59,7 +59,7 @@ export const profileData = {
             'mail': '10martyshevaa@haileyburyalmaty.kz'
         },
         {
-            'imageSrc': '/images/team/tomiris-HALMUN.jpeg',
+            'imageSrc': '/images/team/tomiris-HALMUN.jpg',
             'nid': 'tomiris-kamitova',
             'name': 'Tomiris Kamitova',
             'position': 'ECOFIN Vice Chair',
@@ -67,7 +67,7 @@ export const profileData = {
             'mail': '11kamitovat@haileyburyalmaty.kz'
         },
         {
-            'imageSrc': '/images/team/selin-HALMUN.jpeg',
+            'imageSrc': '/images/team/selin-HALMUN.jpg',
             'nid': 'selin-chetinelli',
             'name': 'Selin Chetinelli',
             'position': 'UNHCR Chair',
@@ -75,7 +75,7 @@ export const profileData = {
             'mail': '10chetinellis@haileyburyalmaty.kz'
         },
         {
-            'imageSrc': '/images/team/ulpan-HALMUN.jpeg',
+            'imageSrc': '/images/team/ulpan-HALMUN.jpg',
             'nid': 'ulpan-nurdilda',
             'name': 'Ulpan Nurdilda',
             'position': 'Vice Chair',
