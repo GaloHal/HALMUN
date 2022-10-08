@@ -1,7 +1,7 @@
 export const profileData = {
     'secretariat': [
         {
-            'imageSrc': '/images/team/anuar-HALMUN.jpeg',
+            'imageSrc': '/images/team/anuar-HALMUN.jpg',
             'nid': 'anuar-kul-mukhammed',
             'name': 'Anuar Kul-Mukhammed',
             'position': 'Secretary-General',
@@ -17,7 +17,7 @@ export const profileData = {
             'mail': '10sayatl@haileyburyalmaty.kz'
         },
         {
-            'imageSrc': '/images/team/dana-HALMUN.jpeg',
+            'imageSrc': '/images/team/dana-HALMUN.jpg',
             'nid': 'dana-skorokhodova',
             'name': 'Dana Skorokhodova',
             'position': 'Director of Outreach',
@@ -25,7 +25,7 @@ export const profileData = {
             'mail': '15skorokhodovad@haileyburyalmaty.kz'
         },
         {
-            'imageSrc': '/images/team/amir-HALMUN.jpeg',
+            'imageSrc': '/images/team/amir-HALMUN.jpg',
             'nid': 'amir-nurmukhambetov',
             'name': 'Amir Nurmukhambetov',
             'position': 'Director of IT',
