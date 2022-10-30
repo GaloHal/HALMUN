@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import LinkButton from '../LinkButton';
 import styles from './Committe.module.css';
@@ -7,7 +7,10 @@ import styles from './Committe.module.css';
 function Comitte(props) {
     return (
         <div className={styles['committe-container']}>
-            <img src={props.imgSrc} alt={props.title}/>
+            <LazyLoadImage
+                src={props.imageSrc}
+                alt={props.title}
+            />
 
             <div className={styles['committe-content']}>
                 <span className='h2'>{props.title}</span>

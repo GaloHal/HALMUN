@@ -1,4 +1,3 @@
-import Navbar from '../Navbar';
 import Background from '../Background';
 
 import styles from './Header.module.css';

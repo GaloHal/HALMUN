@@ -1,7 +1,7 @@
 export const profileData = {
     'secretariat': [
         {
-            'imageSrc': '/images/team/anuar-HALMUN.jpg',
+            'imageSrc': '/images/team/anuar-HALMUN.jpeg',
             'nid': 'anuar-kul-mukhammed',
             'name': 'Anuar Kul-Mukhammed',
             'position': 'Secretary-General',
@@ -9,7 +9,7 @@ export const profileData = {
             'mail': '10kul-muhammeda@haileyburyalmaty.kz'
         },
         {
-            'imageSrc': '/images/team/alinur-HALMUN.jpg',
+            'imageSrc': '/images/team/alinur-HALMUN.jpeg',
             'nid': 'alinur-sayat',
             'name': 'Alinur Sayat',
             'position': 'Director General',
@@ -17,7 +17,7 @@ export const profileData = {
             'mail': '10sayatl@haileyburyalmaty.kz'
         },
         {
-            'imageSrc': '/images/team/dana-HALMUN.jpg',
+            'imageSrc': '/images/team/dana-HALMUN.jpeg',
             'nid': 'dana-skorokhodova',
             'name': 'Dana Skorokhodova',
             'position': 'Director of Outreach',
@@ -25,7 +25,7 @@ export const profileData = {
             'mail': '15skorokhodovad@haileyburyalmaty.kz'
         },
         {
-            'imageSrc': '/images/team/amir-HALMUN.jpg',
+            'imageSrc': '/images/team/amir-HALMUN.jpeg',
             'nid': 'amir-nurmukhambetov',
             'name': 'Amir Nurmukhambetov',
             'position': 'Director of IT',
@@ -35,7 +35,7 @@ export const profileData = {
     ],
     'chairs': [
         {
-            'imageSrc': '/images/team/iskander-HALMUN.jpg',
+            'imageSrc': '/images/team/iskander-HALMUN.jpeg',
             'nid': 'iskander-kessikbayev',
             'name': 'Iskander Kessikbayev',
             'position': 'UNSC Chair',
@@ -43,7 +43,7 @@ export const profileData = {
             'mail': '10kessikbayevi@haileyburyalmaty.kz'
         },
         {
-            'imageSrc': '/images/team/ruihan-HALMUN.jpg',
+            'imageSrc': '/images/team/ruihan-HALMUN.jpeg',
             'nid': 'ruihan-chu',
             'name': 'Ruihan Chu',
             'position': 'UNSC Vice Chair',
@@ -51,7 +51,7 @@ export const profileData = {
             'mail': '11chur@haileyburyalmaty.kz'
         },
         {
-            'imageSrc': '/images/team/alikseniia-HALMUN.jpg',
+            'imageSrc': '/images/team/alikseniia-HALMUN.jpeg',
             'nid': 'alikseniia-martysheva',
             'name': 'Alikseniia Martysheva',
             'position': 'ECOFIN Chair',
@@ -59,7 +59,7 @@ export const profileData = {
             'mail': '10martyshevaa@haileyburyalmaty.kz'
         },
         {
-            'imageSrc': '/images/team/tomiris-HALMUN.jpg',
+            'imageSrc': '/images/team/tomiris-HALMUN.jpeg',
             'nid': 'tomiris-kamitova',
             'name': 'Tomiris Kamitova',
             'position': 'ECOFIN Vice Chair',
@@ -67,7 +67,7 @@ export const profileData = {
             'mail': '11kamitovat@haileyburyalmaty.kz'
         },
         {
-            'imageSrc': '/images/team/selin-HALMUN.jpg',
+            'imageSrc': '/images/team/selin-HALMUN.jpeg',
             'nid': 'selin-chetinelli',
             'name': 'Selin Chetinelli',
             'position': 'UNHCR Chair',
@@ -75,7 +75,7 @@ export const profileData = {
             'mail': '10chetinellis@haileyburyalmaty.kz'
         },
         {
-            'imageSrc': '/images/team/ulpan-HALMUN.jpg',
+            'imageSrc': '/images/team/ulpan-HALMUN.jpeg',
             'nid': 'ulpan-nurdilda',
             'name': 'Ulpan Nurdilda',
             'position': 'Vice Chair',

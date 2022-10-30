@@ -1,3 +1,4 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import styles from './Profile.module.css';
 
 function Profile({
@@ -13,7 +14,7 @@ function Profile({
 
             <span className={`p bold ${styles['title']}`}>{name}</span>
 
-            <img src={imageSrc} alt={name}/>
+            <LazyLoadImage src={imageSrc} alt={name}/>
 
             <span className='p'>{description}</span>
 
