@@ -25,12 +25,12 @@ export const profileData = {
             'mail': '15skorokhodovad@haileyburyalmaty.kz'
         },
         {
-            'imageSrc': '/images/team/ruihan-HALMUN.jpeg',
-            'nid': 'ruihan-chu',
-            'name': 'Ruihan Chu',
-            'position': 'Director of IT',
-            'description': 'Ruihan is also excited to be part of the HALMUN team as a director of IT. She is really passionate about science and technology, and plans to further her studies in these fields in university.',
-            'mail': '11chur@haileyburyalmaty.kz'
+            //'imageSrc': '/images/team/-HALMUN.jpeg',
+            //'nid': '',
+            //'name': '',
+            //'position': 'Director of IT',
+            //'description': ' is also excited to be part of the HALMUN team as a director of IT.',
+            //'mail': '@haileyburyalmaty.kz'
         }
     ],
     'chairs': [
