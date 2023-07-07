@@ -1,20 +1,20 @@
 export const profileData = {
     'secretariat': [
         {
-            'imageSrc': '/images/team/anuar-HALMUN.jpeg',
-            'nid': 'anuar-kul-mukhammed',
-            'name': 'Anuar Kul-Mukhammed',
+            'imageSrc': '/images/team/tomiris-HALMUN.jpeg',
+            'nid': 'tomiris-kamitova',
+            'name': 'Tomiris Kamitova',
             'position': 'Secretary-General',
-            'description': 'Anuar is incredibly excited to be serving as the Secretary-General of HALMUN in its 2nd iteration. He is a year 13 at the Haileybury Almaty sixth form and plans to study finances and political science in college. In his free time, you might find him practicing in the swimming pool, listening to Kanye West, or reading up on the current state of world affairs. Anuar is excited to welcome you to HALMUN 2022, do not hesitate to reach out to him.',
-            'mail': '10kul-muhammeda@haileyburyalmaty.kz'
+            'description': 'Tomiris is incredibly excited to be serving as the Secretary-General of HALMUN in its 3rd iteration. She is a year 13 at the Haileybury Almaty sixth form and plans to study Law in college.,
+            'mail': '11kamitovat@haileyburyalmaty.kz'
         },
         {
-            'imageSrc': '/images/team/alinur-HALMUN.jpeg',
-            'nid': 'alinur-sayat',
-            'name': 'Alinur Sayat',
+            'imageSrc': '/images/team/ruihan-HALMUN.jpeg',
+            'nid': 'ruihan-chu',
+            'name': 'Ruihan Chu',
             'position': 'Director General',
-            'description': 'Alinur Sayat will be taking the role of Director General and Alinur is going to work hard in order to make the conference go as smoothly as possible. Alinur Sayat is a year 13 student, with a passion for bioengineering and related sciences. In his free time, Alinur enjoys playing piano, guitar, and dombra. Charity takes up a lot of Alinur’s free time as well.',
-            'mail': '10sayatl@haileyburyalmaty.kz'
+            'description': 'Ruihan will be taking the role of Director General and Ruihan is going to work hard in order to make the conference go as smoothly as possible. Ruihan Chu is a year 13 student who is also the School Captain of Haileybury Almaty, with a passion for Engineering and Music. In her free time, She enjoys playing piano, and also drawing and Oil Painting. Charity takes up a lot of her free time as well.',
+            'mail': '11chur@haileyburyalmaty.kz'
         },
         {
             'imageSrc': '/images/team/dana-HALMUN.jpeg',
@@ -25,12 +25,12 @@ export const profileData = {
             'mail': '15skorokhodovad@haileyburyalmaty.kz'
         },
         {
-            'imageSrc': '/images/team/amir-HALMUN.jpeg',
-            'nid': 'amir-nurmukhambetov',
-            'name': 'Amir Nurmukhambetov',
+            'imageSrc': '/images/team/ruihan-HALMUN.jpeg',
+            'nid': 'ruihan-chu',
+            'name': 'Ruihan Chu',
             'position': 'Director of IT',
-            'description': 'Amir is excited to be part of the HALMUN team as a director of IT. He is a year 13 at the Haileybury Almaty sixth form, who is going to maintain the website and implement new technology in the workplace. In his free time, he loves to play basketball and spend time with his friends, but mainly he is working on his projects and freelancing as a backend developer. Amir is happy to invite you to HALMUN 2022. Feel open to contact him any time.',
-            'mail': '15nurmukhambetova@haileyburyalmaty.kz'
+            'description': 'Ruihan is also excited to be part of the HALMUN team as a director of IT. She is really passionate about science and technology, and plans to further her studies in these fields in university.',
+            'mail': '11chur@haileyburyalmaty.kz'
         }
     ],
     'chairs': [
@@ -43,20 +43,12 @@ export const profileData = {
             'mail': '10kessikbayevi@haileyburyalmaty.kz'
         },
         {
-            'imageSrc': '/images/team/ruihan-HALMUN.jpeg',
-            'nid': 'ruihan-chu',
-            'name': 'Ruihan Chu',
-            'position': 'UNSC Vice Chair',
-            'description': 'Ruihan is very honored to be serving as the Vice-Chair of the UNSC committee. She is a year 12 student in Haileybury Almaty, who is interested in STEM and Music. You will find her playing piano and painting landscapes and portraits during her free time. Ruihan welcomes you all to the 2nd HALMUN 2022. Feel free to reach out to her.',
-            'mail': '11chur@haileyburyalmaty.kz'
-        },
-        {
-            'imageSrc': '/images/team/alikseniia-HALMUN.jpeg',
-            'nid': 'alikseniia-martysheva',
-            'name': 'Alikseniia Martysheva',
+            'imageSrc': '/images/team/ulpan-HALMUN.jpeg',
+            'nid': 'ulpan-nurdilda',
+            'name': 'Ulpan Nurdilda',
             'position': 'ECOFIN Chair',
-            'description': 'Alikseniia is honoured to be the ECOFIN Chair of HALMUN 2022. She is the Haileybury Almaty School Captain and plans to read law in the future. Recently, she has found it extremely engaging to peruse through Kazakh and Kyrgyz laws, codes and normative acts. She loves coffee and alternative/ grunge rock. Alikseniia looks forward to working with you during the conference, so feel free to contact her anytime.',
-            'mail': '10martyshevaa@haileyburyalmaty.kz'
+            'description': 'Ulpan is honoured to be the ECOFIN Chair of HALMUN 2023. ',
+            'mail': '16nurdildau@haileyburyalmaty.kz'
         },
         {
             'imageSrc': '/images/team/tomiris-HALMUN.jpeg',
