@@ -103,7 +103,7 @@ function Footer() {
 
                 <span className='p ltl'>
                     Copyright @2022 | Website managed by 
-                    <a href='https://github.com/Hereugo' target='_blank' rel='noreferrer'> Amir Nurmukhambetov, Ruihan Chu </a>
+                    <a href='https://github.com/Hereugo' target='_blank' rel='noreferrer'> Amir Nurmukhambetov </a>
                 </span>
             </div>
 
