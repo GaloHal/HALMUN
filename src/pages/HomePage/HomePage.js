@@ -28,7 +28,7 @@ function HomePage(props) {
                     desc='HALMUN is a free Model United Nations conference that is organised by the Haileybury Almaty school.'
                     />
                 }
-                desc='The 2nd annual session will take place on October 8-9th, 2022'
+                desc='The 3rd annual session will take place on October 7th-8th, 2023'
             >
                 <LinkButton to={infoData['registration-link']}>Register Here</LinkButton>
             </Header>
@@ -45,9 +45,9 @@ function HomePage(props) {
                             {infoData['letter']}
                         </span>
 
-                        <img className={styles['letter-sign']} src='/images/letter-sign.webp' alt='Anuar Kul-Mukhammed'/>
+                        {/* <img className={styles['letter-sign']} src='/images/letter-sign.webp' alt='Tomiris Kamitova'/> */}
 
-                        <span className='p right'>Anuar Kul-Mukhammed</span>
+                        <span className='h2 right'>Tomiris Kamitova</span>
                         <span className='p right'>Secretary-General</span>
                         <span className='p right'>Haileybury Almaty Model United Nations</span>
                         <span className='p right'>halmunstaff@gmail.com</span>

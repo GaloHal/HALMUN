@@ -9,11 +9,11 @@ export const sponsorsData = [
         'nid': 'jaqsylq',
         'name': 'Jaqsylq Charity'
     },
-    {
-        'src': '/images/sponsors/unhcr.png',
-        'nid': 'unhcr',
-        'name': 'United Nations High Commissioner for Refugees Committee'
-    },
+    // {
+    //     'src': '/images/sponsors/unhcr.png',
+    //     'nid': 'unhcr',
+    //     'name': 'United Nations High Commissioner for Refugees Committee'
+    // },
     {
         'src': '/images/sponsors/haileybury-almaty.png',
         'nid': 'haileybury-almaty',
