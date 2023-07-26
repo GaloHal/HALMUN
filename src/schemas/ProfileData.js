@@ -5,7 +5,7 @@ export const profileData = {
             'nid': 'tomiris-kamitova',
             'name': 'Tomiris Kamitova',
             'position': 'Secretary-General',
-            'description': 'Tomiris is incredibly excited to be serving as the Secretary-General of HALMUN in its 3rd iteration. She is a year 13 at the Haileybury Almaty sixth form and plans to study Law in college.,
+            'description': 'Tomiris is incredibly excited to be serving as the Secretary-General of HALMUN in its 3rd iteration. She is a year 13 at the Haileybury Almaty sixth form and plans to study Law in college.',
             'mail': '11kamitovat@haileyburyalmaty.kz'
         },
         {
