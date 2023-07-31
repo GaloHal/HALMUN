@@ -9,9 +9,10 @@ export const committesData = [
         
         "topic-title": "Nuclear Proliferation and Nuclear Strategy",
         "topic-short-description": "UNSC topic for this year's conference is Nuclear Proliferation and Nuclear Strategy.",
-        "topic-description": "This topic explores the historical background, motivations, and consequences of nuclear proliferation. It examines the reasons why countries seek nuclear weapons, including deterrence, security concerns, prestige, and regional power dynamics. It delves into the challenges posed by nuclear proliferation, such as the impact on global stability, arms races, and the potential for nuclear terrorism..",
+        "topic-description": "The United Nations Security Council (UNSC) will address the crucial issue of nuclear proliferation and nuclear strategy in the upcoming HALMUN 2023 conference. With the potential for catastrophic consequences, the proliferation of nuclear weapons poses a significant threat to global peace and security. This topic seeks to explore the challenges posed by the spread of nuclear weapons, examine existing international frameworks, and discuss strategies to mitigate the risks associated with nuclear proliferation. Delegates in the UNSC will delve into the complexities surrounding nuclear disarmament efforts and non-proliferation treaties, emphasizing the importance of adherence to existing agreements such as the Treaty on the Non-Proliferation of Nuclear Weapons (NPT). Participants will examine the role of the UNSC in ensuring compliance and addressing violations of non-proliferation norms. In addition to discussing nuclear proliferation, delegates will also analyze nuclear strategy, encompassing doctrines, deterrence, and arms control measures. This includes evaluating the balance between disarmament and maintaining a credible deterrent posture, as well as exploring the implications of emerging technologies on nuclear strategy. The discussions within the UNSC will revolve around crafting effective resolutions that address the challenges of nuclear proliferation and promote disarmament efforts. Delegates will collaborate to develop comprehensive measures to strengthen the global non-proliferation regime, enhance transparency, prevent illicit trafficking of nuclear materials, and foster international cooperation. By engaging in thoughtful debates and negotiations, delegates in the UNSC will strive to establish a framework that bolsters international security, mitigates the risks of nuclear proliferation, and paves the way for a safer and more stable world.",
 
         //"chair": "Amina Meirkhan",
+        "vice-chair": "amina-meirkhan"
         
         //"background-guideline-link": "/data/BackgroundGuidelines/UNSC.pdf"
     },
@@ -19,17 +20,17 @@ export const committesData = [
         "name": "WHO",
         "full-name": "World Health Organisation",
         "id": "who",
-        //"image": "/images/unhcr.jpeg",
-        //"short-description": "The United Nations High Commissioner for Refugees is a United Nations agency mandated to aid and protect refugees, forcibly displaced communities, and stateless people, and to assist in their voluntary repatriation, local integration or resettlement to a third country.",
+        "image": "/images/who.jpeg",
+        //"short-description": "In the dynamic world of healthcare, more and more attention is being brought in the pivotal role that research, evidence and information play in achieving better health for all. Knowing the challenges associated with this field, from information overload and misinformation, data privacy issues, misalignment and issues in clinical application, the chairs of this years WHO committee are sounding the alarm, calling upon all delegates to collaborate and brainstorm innovative proposals to the various nuances of this topic. From its founding to the modern day, the WHO has taken on a leadership role in coordinating the actions taken in the face of health emergencies, promoting well-being, preventing diseases, and expanding healthcare accessibility, and is looking forward to welcoming delegates up for a challenging, but ultimately rewarding experience!",
         
-        "detailed-description": "The United Nations High Commissioner for Refugees is a United Nations agency mandated to aid and protect refugees, forcibly displaced communities, and stateless people, and to assist in their voluntary repatriation, local integration or resettlement to a third country.",
+        "detailed-description": "The World Health Organization is a specialized agency of the United Nations responsible for international public health. It is headquartered in Geneva, Switzerland and has six regional offices and 150 field offices worldwide.",
 
         "topic-title": "Harnessing Research, Information, and Evidence",
         "topic-short-description": "WHO topic for this year's conference is Harnessing Research, Information, and Evidence.",
-        //"topic-description": "Climate change is the defining crisis of our time and its impacts are disproportionately experienced by people in vulnerable situations, such as those who have fled war and persecution. In 2020 alone, over 30 million displacements were triggered by environmental disasters. Most displaced people remain within the borders of their home country. Research suggests that without proper response measures, climate change could cause more than 200 million people to be internally displaced by 2050.",
+        "topic-description": "In the dynamic world of healthcare, more and more attention is being brought in the pivotal role that research, evidence and information play in achieving better health for all. Knowing the challenges associated with this field, from information overload and misinformation, data privacy issues, misalignment and issues in clinical application, the chairs of this years WHO committee are sounding the alarm, calling upon all delegates to collaborate and brainstorm innovative proposals to the various nuances of this topic. From its founding to the modern day, the WHO has taken on a leadership role in coordinating the actions taken in the face of health emergencies, promoting well-being, preventing diseases, and expanding healthcare accessibility, and is looking forward to welcoming delegates up for a challenging, but ultimately rewarding experience!",
 
-        //"chair": "Nuriya Klimenko",
-        //"vice-chair": "Aruzhan Kul-Muhammed",
+        "chair": "nuriya-klimenko",
+        "vice-chair": "aruzhan-kulmuhammed",
         
         //"background-guideline-link": "/data/BackgroundGuidelines/UNHCR.pdf"
     },
@@ -46,7 +47,7 @@ export const committesData = [
         //"topic-description": "The topic for this year’s ECOFIN is “Tackling Global Inflation”. Before exploring this topic in greater detail, key concepts should be defined and distinctions should be made to avoid any baseline misunderstandings.\n\nInflation is the rate of increase in prices of a basket of goods and services over a given period of time. The most commonly used inflation indexes are the Consumer Price Index (CPI) and the Wholesale Price Index (WPI). The CPI is a measure that examines the weighted average of prices of a basket of goods and services which are of primary consumer needs. The CPI is calculated by taking price changes for each item in the predetermined basket of goods and averaging them based on their relative weight in the whole basket. The prices in consideration are the retail prices of each item, as available for purchase by the individual citizens. The WPI, on the other hand, measures and tracks the changes in the price of goods in the stages before the retail level.",
 
         "chair": "ulpan-nurdilda",
-        //"vice-chair": "",
+        "vice-chair": "alibek-alzhanov",
 
         //"background-guideline-link": "/data/BackgroundGuidelines/ECOFIN.pdf"
     }

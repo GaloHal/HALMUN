@@ -38,18 +38,18 @@ function AboutUsPage(props) {
                         textSize='h2'
                     />
 
-                    <Profile
+                    {/* <Profile
                         imageSrc={secretariat[0]['imageSrc']}
                         position={secretariat[0]['position']}
                         name={secretariat[0]['name']}
                         description={secretariat[0]['description']}
                         mail={secretariat[0]['mail']}
-                    />
+                    /> */}
 
                     <ul className={styles['profiles-grid-layout']}>
                         {
                             secretariat.map((data, key) => {
-                                if (key === 0 || key === secretariat.length - 1) return (null);
+                                if (key === secretariat.length - 1) return (null);
 
                                 return (
                                     <li className={styles['profile-item']}>
