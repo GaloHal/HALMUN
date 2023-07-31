@@ -52,9 +52,9 @@ function DetailComittePage(props) {
                     <ul className={styles2['profiles-grid-layout']}>
                         {
                             profileData['chairs'].map((data, _key) => {
-                                if (data['nid'] !== committe['chair'] && data['nid'] !== committe['vice-chair'])
+                                if ((data['nid'] !== committe['chair'] && data['nid'] !== committe['vice-chair']) || committe['id']=="unsc")
                                     return (null);
-
+                                    
                                 return (
                                     <li className={styles2['profile-item']}>
                                         <Profile
@@ -69,6 +69,25 @@ function DetailComittePage(props) {
                             })
                         }
                     </ul>
+                    {
+                            profileData['chairs'].map((data, _key) => {
+                                if ((data['nid'] !== committe['chair'] && data['nid'] !== committe['vice-chair']))
+                                    return (null);
+                                    
+                                if(committe['id']=="unsc" && data['nid']==committe['vice-chair']){
+                                    return (
+                                        <Profile
+                                                imageSrc={data['imageSrc']}
+                                                position={data['position']}
+                                                name={data['name']}
+                                                description={data['description']}
+                                                mail={data['mail']}
+                                            />
+                                    );
+                                }
+                            })
+                        }
+                   
 
                     <Title
                         text={`Topic: ${committe['topic-title']}`}
