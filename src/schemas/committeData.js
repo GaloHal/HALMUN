@@ -47,7 +47,7 @@ export const committesData = [
         "topic-description": "In the ECOFIN committee of this Model United Nations (MUN) conference, delegates will delve into the pressing issue of \"Developing Effective Measures to Combat Tax Evasion and Money Laundering in the Digital Age.\" As the world rapidly embraces digital technologies and financial systems, the risks associated with tax evasion and money laundering have evolved, posing significant challenges to global economic stability and transparency. Delegates will collaborate to explore innovative and comprehensive strategies to address these illicit financial activities, striking a balance between promoting digital financial inclusion and safeguarding the integrity of financial systems. By analyzing the intricacies of cross-border transactions, emerging cryptocurrencies, and advancements in financial technology, delegates will work towards formulating practical, equitable, and enforceable solutions that foster international cooperation and accountability among nations and financial institutions alike.",
 
         "chair": "ulpan-nurdilda",
-        "vice-chair": "alibek-alzhanov",
+        "vice-chair": "alibek-karsybekov",
 
         //"background-guideline-link": "/data/BackgroundGuidelines/ECOFIN.pdf"
     }

@@ -60,8 +60,8 @@ export const profileData = {
         },
         {
             'imageSrc': '/images/team/alibek-HALMUN.jpeg',
-            'nid': 'alibek-alzhanov',
-            'name': 'Alibek Alzhanov',
+            'nid': 'alibek-karsybekov',
+            'name': 'Alibek Karsybekov',
             'position': 'ECOFIN Vice-Chair',
             'description': "For me MUN is no just a conference, but a way for students to find each other and establish valuable connections all around the globe. I found many friends through many MUNs, and I hope our delegates from ECOFIN will too. For me personally, it's an honour to moderate HALMUN and I look forward to seeing each of you!",
             // 'mail': '10kessikbayevi@haileyburyalmaty.kz'
